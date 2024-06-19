@@ -1,0 +1,2551 @@
+,summary,severity
+0,Full Support for K & R C Style Function Declarations,minor
+1,Function callers references sometimes point to statements.,major
+3,R1:  Changing storage causes wrong byes to change,critical
+5,Eclipse:  Modify variable in Monitor view doesn't update same in Variable View,major
+6,R2:  Check validity of process id when trying to attach to a c/c++ application,major
+7,editing read-only files,minor
+8,Incorrect type info after remove parse info and reparse,major
+9,Need support for function breakpoints,major
+10,Command view history: piped commands,minor
+11,searching a function,minor
+12,filtering functions in the Project Details view,major
+13,Enable Finish button in Command Specifications view,minor
+15,C/C++ launchers not consistent with Java,minor
+16,aliases in command view don't resolve,minor
+17,Source from a dll cannot be located,major
+18,Crash when opening file with C source,critical
+19,"Unable to edit, lots of keys broken",major
+20,Check-in Installer to CVS,major
+21,"project creation wizard, build invocation lacking memory",minor
+22,Parse persistence does not work,major
+23,"Confirmation dialog does not show up upon ""Create/Update all automake files""",minor
+24,Inconsistent highlighting length,minor
+26,Remotely deleting a file that is currently opened by an editor,major
+27,Debug UI:  Removing breakpoints failed when using the editor's context menu action,major
+28,Debug UI:  Disabling breakpoint is not working remotely,major
+29,R1:  Exception when trying to relaunch remote debug session,critical
+30,Debug UI:  Adding a monitor from the Monitor's view local toolbar action is not working remotely,major
+32,Debug UI:  Adding a storage monitor from the Storage's view local toolbar action is not working remotely,major
+33,Fix up setting of Parse Quality and other Parse Properties..,major
+34,macros should not have contents,major
+35,Autoconf: Deleting a source file does not change the disabled generate confogure action to be enabled,major
+36,Autoconf: Advanced create/update all automake files action is disabled when the project has no sub-directories,major
+37,Strange elements in Parsed-files view,major
+38,remote parse(jikes) never ends,blocker
+39,"Label for ""Browse..."" button on ""Command Launcher"" view is truncated.",minor
+40,Titles for  Parse views are incorrect,minor
+41,"""includes/included by"" after a rename",major
+42,New file created not shown in editor view,minor
+43,"Exception when selecting a directory with name starts with a dot "".""",major
+44,command specification wizard problems,minor
+45,opening files with vi/lpex,minor
+46,Folder renamed in C/C++ Projects view not updated in navigator view,major
+47,Renaming remote project makes it impossible to access properties page and re-open project after restart,major
+48,Handle non-alphanumeric characters for filenames in patterns.dat,minor
+49,creating a remote project with invalid info,minor
+50,Automatic parse upon resource modification(remote),major
+51,parse behaviour/quality settings,major
+52,preprocess null pointer exception when using autoparse,major
+53,parser doesn't handle cancel,major
+54,search is broken,major
+55,"Upon creating a C/C++ project, the C/C++ prespective doesn't show anymore",major
+56,R2:  gdbPicl can't handle the command response lines > 50000,major
+58,Drawing Problem with large amounts of Command Output,major
+59,Deleting project in C/C++ Perspective causes internal error,major
+60,make clean doesn't work,major
+61,inconsistent placement of folders in Projects view versus Navigator,minor
+62,Internal error from running the application,major
+63,Titles in run launcher dialog empty,minor
+64,Command launcher history - should remove duplicates,minor
+65,History for Debug Launcher's Program Parameters,minor
+66,"First time Search Docs view is up, Enter key has no effect",minor
+68,deselecting both Man and Info pages has no effect on the search,minor
+69,Command specifications: order of entry should not be important,minor
+70,"Can't debug ""executable"" built with shared libraries",major
+72,unnecessary empty column showing in project Environment pane,minor
+73,Exception occurred when shutting down Eclipse,major
+74,UI ModelInterface extensions,major
+75,Project does not recognize file as executable,major
+76,Can't debug JNI,major
+77,NoClassDefFoundError IDebugViewAdapter,major
+78,autoconf actions use synchronized commands,major
+79,"Change packet for Monitors not generated after command in ""Debug Console""",major
+80,Run Launcher in CDT broken,critical
+81,ElementMarker exception saving a new file...,major
+82,Starting Debug Session fails,major
+83,Path for epdc.jar from launcher is hard-coded,major
+84,Run icon for executable fails to show up.,minor
+85,CDT doen't work under WIN/CYGWIN,major
+86,"C++ ""throw()"" code throws off source parser",major
+87,Eclipse Hangs when opening an complex header file,critical
+88,Cannot add any breakpoints,major
+89,Class org.eclipse.cdt.internal.core.model.Include not fully implimented,minor
+92,destructor inside namespace will hang eclipse,major
+94,Building two projects wipes C-Build output,major
+95,Writing backwards,major
+96,win32 spawner not returning proper exit values.,major
+97,Wrong execution context after stepping.,major
+98,Eclipse hangs opening header with macro and non-virtual destructor,critical
+99,Eclipse hangs opening header with macro and non-virtual destructor,critical
+101,GPF when running CDT with J9,major
+102,Double clicking a task puts cursor on the line after the problem,minor
+103,C++ icon and wizard names in new Project dialog,minor
+104,Install/Update CDT tells missing component,minor
+105,Need to be able to add source paths to the debugger,major
+109,Text Entry is Reversed in C++ Perspective,blocker
+110,C editor cannot handle __inline,major
+111,c++filt should be configurable on a per-project basis,minor
+112,"NPE on toggling ""show print margins"" in C(++) editor preferences",minor
+113,Cannot build over ssh,major
+115,Eclipse goes Nirwana,critical
+117,Register setting does not correctly update display.,minor
+118,It's not possible to open .cpp or .h Files,blocker
+119,It's not possible to start the Debugger ( reason: timeout ),blocker
+120,Line Numbering shows up twice,minor
+121,C Editor hangs Eclipse when opening simple C++ .h file,blocker
+122,Debugger don't show Variables,blocker
+123,Can't install latest CDT relase (1.0.1) on Linux GTK+,blocker
+124,Invalid thread access,major
+125,debugging finds wrong source files,major
+126,"Wrong outline if static member contains ""Struct""",minor
+127,Show line numbers,minor
+128,Parsing failure on some files. No outline provided,major
+129,Trying to open attached source code hangs Eclipse.,critical
+130,Broken outline in winbase.h,major
+132,Custom color dialogs prevent entering 3 digits,minor
+133,Error recovery with unterminated string is weak,minor
+134,Bad Line Ending handling on Linux & Solaris,minor
+135,Stack Overflow in Debug UI,blocker
+136,[Parser] QUICK_PARSE failures due to lack of context,major
+138,installation bug,major
+139,The using directive causes parser to fail,major
+140,outline window doesn't show all functions,major
+141,On RH8.0 eclipse(plus CDT plug-in) doesn't launch,blocker
+142,Installation problem,major
+143,org.eclipse.swt.SWTError: No more handles,major
+144,download of CDT 1.1.0 for GTK corrupt,blocker
+145,Problem with syntax highlighting of preprocessor directives,minor
+146,[CModel] CModel/Outline Incorrect due to QuickParse heuristics,major
+148,watching a global variable dont work in debug mode,major
+151,Accessibility issues on C/C++ Preferences,minor
+153,Sometimes the C build view is empty,minor
+154,Tab size and spaces.,trivial
+155,C/C++ Properties Page not accessible,major
+156,Fully Qualified Names Needed,blocker
+157,C-Build doesn't have an executable path.,major
+158,Fields coming back as Vars,blocker
+160,"Error 255 on ""make""",minor
+161,"cpu property has value ""none"" for m68k-elf binaries",minor
+162,"Parser is not searching the include path for #include""<name>""",major
+163,makefile in tutorial won't build in Solaris,major
+164,Dependent project is not rebuilt by Dependee,major
+165,Can't build from C/C++ Projects view,major
+166,"Adoptability: CDT lacks ability to specify the ""default"" build target.",major
+167,Robustness: CDT hangs when using old binutils,major
+168,Restore Default in Managed Build project's settings Not Working,major
+170,QualifiedLookup succeeds where it should fail,major
+171,New Managed C++ project builds empty makefile,blocker
+172,New Managed C++ project builds empty makefile,blocker
+175,Cannot search on cpp files,major
+176,"Do Away With ""Enable dependency tree service for this project""",critical
+177,Incremental builds for managed projects must be implemented,critical
+178,Search: Ctrl+H should bring up C/C++ Search tab by default,minor
+179,junit error on linux for indexer tests,major
+180,Launching debugger fails with JDK 1.3.1,critical
+182,Extraneous semi-colons in generated class methods,minor
+184,Expression result types not computed,major
+185,Make warnings (eg. clock skew) are treated as errors.,minor
+186,Managed make doesn't refresh CProject view properly,major
+187,[Managed Build] No test for X.c - X.cpp conflicts,minor
+188,Managed Make: Default platform is always Cygwin Executable,major
+189,Manage Make will try to generate makefile for Release or Debug directory,major
+190,System .h's (like stdio.h) not recognized with Code Assist.,major
+191,Search: Cannot find things after double declarations,major
+192,remove the old parser from the 1.2 code stream,major
+193,remove the Indexer tab from the Project property page,major
+194,Search: cannot find beyond function body,major
+195,"Managed build path properties don't recognize ""\""",major
+196,Parser and Editor clients incorrectly use C rules on C++ files in C projects,major
+199,[Search] cannot find things in stdio.h,major
+200,Search: cannot specify relative search paths,major
+201,require reference cleanup for expressions,major
+202,Outline is confused on operator methods containing spaces,major
+203,need to restructure TypeId to allow dynamic_cast<> type expression references,major
+204,Dep Tree Persistence,critical
+206,Fix update site to point to the right location,major
+207,Symbol Table support needed to resolve types,major
+208,ISourceElementRequestor.acceptParameterReference accesses internal class,major
+209,Search: Cannot search for definitions of global variables,major
+210,Managed c/c++ project types gone from New Project wizard,blocker
+211,require ability to add in implicit inheritance copy constructors,major
+212,Code Assist take a long time to find Classes in ManyClasses200 Project,major
+216,Long workbench shutdown times,major
+217,Cannot debug managed c++ project,major
+218,No reference to static member in definition,major
+219,isExtern not returning true for extern declarations,major
+220,Standard Make targets don't build correctly,major
+221,"Search class declarations called ""*"" fails on linux",major
+222,No F1 help associated with the new managed project wizard,critical
+223,Take out CTags Indexer,major
+224,occassional JUnit failure for Search tests,major
+225,Search:f_SD_01  cannot be found in ManyClasses20 Project,major
+226,Platforms shown for non-host.,major
+228,Convert to Make Project seems broken,major
+230,Current Update Manager unacceptable for new users,major
+231,Code Assist won't work if missing end bracket,major
+232,Exceptions in indexer,major
+234,Makefile editor - ifndefs contents not nested in outline view,minor
+235,Code Assist hangs,critical
+236,Cannot Create Project when only CDT+Managed installed,major
+237,CDT 1.2 does not work on Eclipse 3.0,blocker
+239,Managed Build does not build on Solaris and Linux,major
+242,C files are compiled with the C++ compiler,major
+244,Managed Make: Include paths propagated to other projects,major
+245,deleting/moving file breaks search,major
+246,Scanner failure on #undef,major
+247,"NPE when linking ""standard build"" library to ""managed build"" project",major
+248,Exception generating makefile in managed make,blocker
+249,spaces in workspace cause managed projects to fail build,major
+250,Managed: Empty dependent project causes infinite loop,critical
+251,subdir.dep not updated if saving including file before included,major
+252,Cannot change Build properties after renaming project,major
+253,Make Target view can cause dead lock with UI Thread,critical
+255,Makefile editor - highlighting issue with target contents.,trivial
+256,Failure to dereference function calls after a . or an ->,major
+257,Endless loop in dependency checker,major
+258,Importing a cdt 1.1 project doesn't upgrade it,major
+259,Deleting symbolic link in workspace doesn't force dependency recalculation,major
+260,cdt installation fails,blocker
+261,Managed Make: Dependent project rebuilt too much,major
+262,Need to troubleshoot Search UI to understand results,major
+263,Outline View : CModelBuilder quits on templated friends,major
+264,Content Assist Doc change,major
+265,"Managed Make: Circular project dependencies cause endless ""Building..."" loop",major
+266,double-clicking on error message goes to wrong file,major
+268,syntax highlighting of C++ files in a C project,minor
+269,"Symbol Definition (-D) requires ""=1"" for some reason (GCC)",minor
+270,Can not distinguish between multiple executables when selecting in launcher.,minor
+271,Search only work on perfect code,major
+272,State integrity problem when restoring default values on the 'C/C++ Build' window of the project properties dialog,minor
+273,make arguments not being echoed to the console,minor
+274,Selecting in the Outline hides all Editor Content in the file but the selected,major
+275,refactor IScanner to allow use of Readers of IResource,major
+277,MIException while creating MISession can leave an orphan gdb process.,minor
+278,Performance Problems when debugging,major
+280,Workflow problem when using CDT + source control,major
+281,Intermittent perf problem running compiled binary,major
+282,Changing binary parser will cause project to disappear,major
+283,Cannot open makefiles in the editor,major
+284,C-Editor not working,blocker
+286,Launches which abort due to missing configuration items cause NPE,critical
+287,Exception when selecting Debug... menu,minor
+288,NPE when setting a breakpoint to a running program.,major
+289,"Debug View shows Functions as func(type param,...)()",minor
+290,"Debug View shows Functions as func(type param,...)()",minor
+291,No file entry in popup window for project,blocker
+292,NPE when hovering over expression that is not in the current context,major
+293,Search fails in StandardMake project,major
+294,CDT seems not to appear in Eclipse,major
+296,Open External File doesn't work with C Editor,major
+297,CDT failes to install: plugin and it's features unreachable,major
+298,Standard Make Project update fails when project on disk is not in sync,major
+299,ScannerInfo setting on project are not auto-updated,critical
+300,lazy evaluation in indexer causes code assist to block for a long time,major
+301,"Usability::Cannot 'easily' open .xml, .html, .bat, .pl  files in CDT editor",minor
+303,Wrong completion node after a . or an ->,major
+304,NoSuchMethodError on build Managed Make project,critical
+305,Debug fails to launch on 1.2.1M1 build,blocker
+306,Eclipse Crash,critical
+307,Eclipse Crash,critical
+308,Launcher: Debugger tab: variable tracking,minor
+309,C-Build not updating in the first compilation.,minor
+310,Editor can't open if code contains certain syntax (GCC),critical
+311,FAQ should exclude support for Win98 for CDT 1.2,major
+313,Parser appears to hang on code involving for statements,major
+314,Deadlock when changing binary parser & binary runner is running,major
+315,Accessibility-Duplicate Mnemonics on C/C++Editor page,major
+316,[Parser] AST interfaces needs to be updated to provide signatures,major
+317,CDT disappearing from Eclipse after installing,critical
+318,"Rename ""eclipse"" directory and eclipse.exe does not load anymore",critical
+321,I can no longer debug ARM embedded w/CDT,major
+322,Visibility is incorrectly decided in inheritance,major
+323,Need access to internal class CElementImageProvider,major
+324,Need access to internal class CViewSorter,major
+325,Freezes when opening / saving .c file,major
+326,I18N: Debug strings needs to be externalized,major
+327,I18N: org.eclipse.cdt.make.ui needs to externalize strings,major
+330,MakeTarget invokes only make builder disregarding the rest,critical
+331,ClassCastException when deleting items other than make targets in Make Targets view,trivial
+332,NPE when trying to instantiate a CBuildConsole with non null id,minor
+335,Indexing speed needs to be increased,major
+336,I18N: org.eclipse.cdt.ui needs to externlize strings.,major
+337,"Opening a closed project from the Navigator window of the C/C++ Perspective silently fails, ""Invalid thread access""",minor
+338,[Content Assist] Context-specifics are not considered when completion list is requested,major
+340,[Content Assist] Parser does not strip class qualifier from method name in class declarations,minor
+341,IContainerSymbol::removeSymbol() required,major
+343,Stack Overflow while searching declarations,major
+344,"I18N: NL pathname causes ""Error launching builder""",major
+345,I18N: Outline view doesn't display method name correctly,minor
+346,ast.complete.IASTClassSpecifier#getDeclarations returns an empty iterator,major
+347,Can't launch make in Windows 98,major
+349,Managed Make: schema prevents listOptionValue in optionReference,major
+350,Crash when displaying (invalid?) expression in debug,major
+352,[New Class Wizard] Be able to configure new class wizard to not open source,major
+353,There is an extra parse in the CDT that is not needed,major
+354,Unable to Build CDT from command line,major
+355,"[Parser] indexer ""hangs up"" on file from linux 2.6",major
+356,[Scalability]: Content Assist on windows.h takes 16 seconds,major
+357,"Deselecting ""Use default Build command"" corrupts .project",major
+358,Slew of exceptions in log while indexing during a search,major
+359,[scalability]Too much memory used in a search,major
+360,New class wizard NPE and does not adapt selection to ICElement,major
+361,[Scalability] Indexing a large project prevents the managed build of a small project,major
+362,[Scalability] UI Responsiveness very sluggish when editing large source files,major
+364,[Scalability] Indexer bypassing filtering when project was closed and had no index,major
+365,Search fails to find enum declaration,major
+366,C Plugin prevents save of non-UTF-8 file,major
+367,typedef in winnt.h do not parse,major
+368,[Content Assist] Completion list presented inappropriately for dynamic_cast statement.,trivial
+369,System Headers / RH9 / Index Failure,major
+370,Can't install CDT under solaris,blocker
+371,[Accessibility] The colour red is used to identify a change to a register value,minor
+372,BuildConsole missing and .log fills up on missing org.eclipse.jface/resource/ResourceRegistry,major
+373,Wrong class used for field,major
+374,Preprocessor skipping doesn't ignore the contents of string literals,major
+375,[Search] C/C++ Search not working because of Background Feature,blocker
+376,[Update Manager] Cannot install CDT on Linux using Update Manager,major
+377,Can't save anything....,major
+378,Outline view stops on error on last line of  block,minor
+379,"[Build]  Build menus are disable when ""build automatically"" flag is on",major
+380,[Error Parser] Red X's not always displayed-> refresh problem in editor,major
+381,Search fails to find variable definition,major
+382,I could not save my file in CDT!,blocker
+383,The auto-build operation causes CDT to hang when the Console view is not the top most view,blocker
+385,Cannot create a Managed Project in AIX,blocker
+386,"[Indexing] Search, etc. does not find moved files",major
+390,Terminated processes never go away in console,major
+392,Parse fails with typedef used as base,major
+393,Search is slow due to file multiplication,major
+394,[Content Assist] Requesting a completion list more then once when windows.h is included causes and out-of-memory error,major
+395,class wizard fails to release working copies,major
+396,DBCS: The <NLartifact>.exe can not run susccessfully in Debug view,major
+397,DBCS:Can not compile DBCS C/C++ project name.,major
+399,DBCS:Context search on System failed in C++ Search,major
+400,Collapse All Icon different in Projects View and Navigator View,minor
+401,Editor is not working with following c struct definition,major
+403,[Content Assist] No completions when function argument is 'struct <struct_name>',major
+404,Can't create a Managed Project,blocker
+405,[Content Assist] No completions available when prefix has a bracket '(' in it.,major
+406,[Binary Parser] Binary parsers do not work on  AIX,major
+408,Error Parser Functionality,major
+409,Cannot build after renaming a referenced project,major
+410,[Refactoring] Subdirectories confuse refactoring,major
+411,[Content Assist] No completion when declaring a struct variable,major
+413,[C/C++ Projects View] The C/C++ Projects view displays duplicate projects,major
+414,[ManagedBuild] Include Path list should be bigger...,major
+415,BIDI: Arabic paths are not diplsyed in the Paths and Symbols tab,major
+416,BIDI: Cannot build Arabic C++ projects,major
+417,Cannot enable breakpoint in C++Project view for binary symbol,minor
+418,C++ projects view displays binaries several times,minor
+419,[Indexer] Background tasks not quiting when leaving Eclipse,major
+420,DBCS: Can not launch DBCS C/C++ compiler path,major
+422,[ManagedBuild] Build Process hanging if I removed source files from project,major
+423,Duplication of files when adding  a class into a CDT Project,major
+424,BIDI: Cannot add Arabic variables to the inspect view,major
+425,"indicating wrong column on error: ""parse error before `*'""",minor
+427,[Content Assist] Content Assist is impractical for simple Hello World program,major
+430,Eclipse hangs when i open a file.,blocker
+431,[Templates] Template class member definitions are instantiated too early,major
+432,intermittent deadlock in running CDescriptor junit tests,major
+433,Error message box when open with C Editor,major
+436,[C/C++ Projects View] Cannot display source files after reopening a CDT project,major
+437,Half of my saves do not invoke a build,major
+439,Problem choosing executable in run dialog,minor
+440,[Search] Search fails to consider files not opened in the editor,major
+441,I18N: Cannot build a DBCS project name on Linux,critical
+442,[Search] Big error when Searching view layout is set to Hierarchical,major
+443,ctrl+l for entering line number is not working,major
+445,[Search] Concurrent searches cause out of memory exceptions,major
+446,"[ManagedBuild] After changing a header, dependent src files from another project does not get rebuilt.",major
+447,[Search] Search results are not appearing in the Search view until search has completed,major
+449,I can't save files in c++ project,blocker
+450,Endless loop with memory allocation when parsing initializer clause,blocker
+451,[Search] Closing the Search view mid search causes an error,major
+452,[Syntax Highlighting] Header files are not highlighted properly in C++ projects,major
+454,[C/C++ Projects View] Binaries folder disappears,major
+455,[C/C++ Project View]  Project folders offset by 1 when displayed,major
+456,[Error Parser]  No error markers show up beyond 1st directory level of project,major
+457,[build] A managed project build gets kicked off when running a standard project.,major
+458,Array declaration with unmatched braces causes out of memory,critical
+459,"closing and opening a project causes ""null"" to appear in the makefile",major
+460,BIDI: Cannot search for Arabic methods using the C/C++ search,major
+461,[ScannerInfo]  Mechanism required to trigger discovery mechanism from content assist/selection search,major
+462,[Parser] 100% CPU loading and high latency of interaction in the time of parsing c code,major
+463,"""Save Failed"" on Samba share",blocker
+464,[scalability] Can't open C/C++ editor repeatedly without running out of memory,major
+465,"[Scanner] Macro expansion of ""#define a b(a)"" causes stack overflow",major
+466,[CModelBuilder] Changing The Model to use the right parser,major
+467,OutOfMemoryError during Search,critical
+468,Type Cache too obtrusive,major
+469,Can't use project dependencies when working in home directory,major
+470,"""CreateLinkedResourceGroup"" labels on New Class Wizard",major
+471,[Search] Sanity: Search is a lot slower (200405121551),major
+472,[Content Assist] failure on iostream in Linux,major
+473,[Scanner Config]: Scanner Config does not work on Windows,major
+474,Managed Shared Library build fails,major
+475,BIDI: Improper displayof Arabic file names in the Debug view,major
+476,[Indexer] The indexer thread hangs if the project being indexed is deleted from the workspace,major
+477,[Saving]  a cpp file after copying/renaming a function in front of a constructor locks Eclipse,major
+478,[Content Assist] printf doesn't complete with MinGW and Managed Make,major
+479,[Search] Search results rely on case of file names in include statement rather then the filesystem,major
+480,[Refactoring] Offset causes refactoring to not work,major
+481,[Scanner Config] CDT-specific file changes to .project are not saved,major
+482,Clean rebuild cleans twice before build,minor
+483,[Refactoring] Rename constructor should rename class name and destructor,major
+484,"[Refactoring] When renaming destructor, it should not include the '~'",major
+485,[Refactoring] Rename destructor should rename class name and its constructor,major
+486,[Scanner Config] does not work with MakeTargets view,major
+487,[I18N] Annotation problem markers require strings externalized,major
+488,[Search] Search causes an out-of-memory error on Solaris,major
+489,[CModel] ITranslationUnit.getElementAtOffset(i) does not factor in multiple namespace decl,major
+490,[Refactoring] a template class does not refactor its constructor,major
+492,[Search] Search syntax causes an exception,major
+493,unable to instantiate editor,blocker
+494,"Eclipse crashes when I start the  build through the ""make targets"" tab",critical
+495,"Eclipse crashes when I start the  build through the ""make targets"" tab",critical
+496,Ability to determine when the index is incomplete,major
+497,"Autobuild on CDT always does ""clean"" first",critical
+498,"Eclipse crashes when I start the  build through the ""make targets"" tab",critical
+499,Eclipse crashes !,critical
+500,[Search] Error with external search markers,major
+501,[Search] Selection search does not work on overloaded functions,major
+502,Type Cache seems to use a lot of memory,major
+503,[Scanner Config] Path discovery should be on by default,major
+504,[Scanner Config] Includes icon does not appear immediately,major
+505,[ManagedBuild] Sanity:  Getting NPE after creating C or C++ Managed Project,blocker
+506,CDescriptor/Indexer deadlock in JUnit,major
+507,Bad labels (IncludeSymbolPathEntry) on Add Folder/File,major
+509,[Refactoring] Rename a nested class does not work,major
+510,Add New Path Container should be disabled if container exists,major
+511,[Refactoring] Renaming a function not working on Motif...,major
+512,NPE in BuildConsoleViewer when building std make project for the first time,major
+513,NPE in CompleteParseASTFactory.createVariable,major
+515,Can not create new C++ project,blocker
+516,Can not create new C++ project on Eclipse 3.0,blocker
+518,expanding tree during indexing causes stack overflow,critical
+519,[Indexer]: The C/C++ Indexer gets regenearted everytime eclipse is restarted.,major
+520,[Search] sanity:  Search not working on Selected Resources on Solaris only,major
+523,[Scanner Config] Importing 1.2.1 project does not update properties,major
+524,"Type Cache exception when creating a CDT project, refactoring, indexing, building, searching...",critical
+526,[Content Assist] for stdio.h not working on HP and AIX,major
+527,[Content Assist] NPE doing ^SPC with no prefix on HPUX,major
+528,[Search]  sanity:  Out of Memory error on HPUX,major
+529,[Class Browser] No refresh when deleting/adding a project or a namespace,major
+530,[CModel] Duplicate namespace declarations in views when namespace defined twice in a file,major
+531,[Templates] Premature incomplete template instance,major
+532,Standard Build JUnit failures,major
+534,CDT (I200405290301 on Eclipse 3M9) interferes with JDT,major
+535,[Path Entry] Includes folder at the root of a CDT project not showing when discovery paths are available,major
+536,[Parser] fails due to class/struct mismatch,major
+537,Renaming a referenced project results in an exception.,major
+538,[Path Entry] tab dialog showing up on Managed Project folders,major
+539,Korean crashes when modifying resources,critical
+541,UnManaged Projects - problem with backwards compatability,major
+542,"[M9] Problem with project properties dialog, build command",major
+543,Deadlock building project,major
+544,CDT freezes eclipse when saving files,critical
+545,[Indexer] Error in the log file if the project being indexed is deleted from the workspace with space in its path.,major
+546,Opending declaration causes stack overflow,major
+547,[Indexer] Manually add an include path to a file/folder is ignored by indexer,major
+548,[Content Assist] [Parser] Content Assist when iostream.h is included fails if workspace path has a space,major
+549,[Refactoring] Renaming a class does not change .cpp file.,major
+551,[Indexer] Turned off indexer keeps restarting,major
+552,cannot install CDT,blocker
+553,[Debug] Cannot set breakpoint in the file before creating a new debug configuration.,major
+554,[Indexer] Turned off indexer gets activated by a move,major
+555,[Indexer] Zombie indexer tasks created,major
+556,[SelectionSearch] Sanity: Giving 0 results after the first try,major
+557,[Indexer] not kicked off after reopening a Managed Project,major
+558,[Indexer] not displayed in Progress Bar after reopening a Standard Project,major
+560,C++ new class wizard must accept Header / Body files default locations.,major
+561,#include statement parser is case sensitive. Should not be.,major
+562,Spurious error for Resource is not open,trivial
+564,[ScannerConfig] ConcurrentModificationException during parallel build,major
+566,[Indexer] getting called twice after creating a project with a file system,major
+567,[I18N] - New Class Wizard does not take project encoding into account when creating files,major
+568,Build Console dramatically slows down builds on Linux,major
+569,137 Errors in junit tests with build CDT 200406180301,major
+570,"In Standard Make mode, settings in C++ Make Project -> Make Builder tab do not save",major
+571,inconsistent behaviour in evaluating expressions,major
+572,[Doc}  Broken links in documentation,major
+573,Save of static library build options fails,major
+574,Source Folder Selection dialog is blank on Linux,major
+575,Open Declaration into closed project causes PartInitException,major
+576,[New Class Wizard] generated files not deleted,major
+577,"[Path Entry] If workspace is under ""Program Files"", Include directory not showing",major
+578,[Scanner] #if expression tokens remain in linked list,major
+579,[Search]  Zombi Search processes left hanging,major
+580,External include file has empty Outline View,major
+581,"[Search] OutOfMemory, Incorrect offsets while searching",major
+582,unable to start editor,blocker
+583,Cannot debug due to SIGSEGV when starting debugging on HP-UX 11.11,blocker
+584,CoreException after creating a Managed C project,major
+585,SWTException: Widget is disposed from Source Folder Selection dialog,major
+586,"CDT 2.0 M9, Project-properties: Changes not applied",blocker
+587,SWTException from Include Paths & Symbols properties,major
+588,[Parser] Callbacks can become unbalanced on errors,major
+589,[Indexer] Cannot restart indexer by touching .c/.cpp/.cc files,major
+590,"Unable to find full path for ""gcc""",major
+591,Code Template is not working,major
+592,Add Include / Open declaration is not Working,major
+593,CDT does not start at all on 3.0 candidate v20040625,critical
+594,NPE from BinarySearchThread,major
+595,[Search]  AIX  sanity:  Internal Error doing Sanity Search Test case....,major
+596,Exceptions while running Automated Test suites,major
+597,Duplicate project when changing nature in the CView,major
+599,C/C++ Browsing's Namespace does not find std globals,major
+600,Invalid values in the Variables view,major
+601,Correcting C/C++ Indexer problems causes 100% cpu usage,major
+602,NPE in PathEntryManager.validatePathEntry while running JUnit tests,major
+603,C/C++ indexer too slow,major
+604,Can not use build targets from old CDT version (1.2.1),major
+607,NPE in IndexerModelListener.processDelta,major
+608,problem in running Automated test suite [debug.ui],major
+609,Unable ot start gdb session on OS X 10.3.4,major
+610,[Help Wanted] problem in Debugging C/C++ projects with Eclipse 3.0 on HP/UX,major
+611,Make builder for Standard Make C/C++ project dont work.,major
+612,[Content Assist] Constructor's argument,major
+613,Syntax Highligthing for C++ files with extension *.C not working,major
+614,ConcurrentModificationException while importing & building,major
+617,Can not save project properties,major
+618,[Indexer] Terminates with out of memory exception.,major
+620,Get rid of External Search Links,major
+622,[Parser] Indexer complains about va_list,major
+623,[Parser] COMPLETION_PARSE takes 1 second longer than COMPLETE_PARSE,major
+624,[Parser] revisit timeout strategy,major
+625,"[C/C++ Class Wizard] Depending on Focus, C/C++ Class Wizard will not allowed to create a class...",major
+626,Errors in running Automated Test Suite Cdt-Debug-Ui,major
+627,"TVT3.0: ""Refresh"" in memory view is untranslated",major
+628,"Hello World Cheat Sheet Titled ""Simple C++ Application""",trivial
+629,[Class Browser Perspective] not finding some external classes,major
+630,[C/C++ FIle Type] Some external file are not colour coded...,major
+631,[Search] Zombi search left hanging when executing it after project was closed,major
+632,[Scanner] Divide by zero expression in #if causes the parser to prematurely exit,major
+633,TVT3.0: CDT debug views have english text,major
+635,[Class Browser Perspective] NPE accessing an external member...,major
+637,Environment is not being set through exec function,major
+638,Java NullPointer exception in creating standard make project.,major
+639,C/C++  Indexer Crash. and out of memory,blocker
+640,Unable to build source files in a linked directory,major
+642,C/C++ Project view does not refresh non-C elements till restart.,major
+643,C/C++ Project view does not refresh non-C elements till restart.,major
+644,can not make any code,blocker
+645, -o should have space before argument in makefile,critical
+646,Non-C Resources still show up in C/C++ Project View after deleting them from C/C++ Project view or Navigator view,major
+648,C++ Classes with German characters does not show up in Class Wizard (In 'Base Class' List),major
+649,TVT3.0: Duplicate entries in C/C++ preferences,major
+650,"[Class Browser Perspective] not refreshed if members, class, etc is added/deleted in the code",major
+651,Class Browser Hierarchy - Null Pointer Exception,major
+652,*.C is not recognized as C++ files,minor
+653,TVT3.0:  encoding problem in doc AAD016_cdt_w_basic01.htm,major
+654,TVT3.0:   English ''Find Refs'' etc in Workbench's Key > C/C++ Source preferences.,major
+655,internal SWT error crashing Workbench,major
+656,C/C++ make project page bug,major
+657,[Parser] Error handling after bad using declaration too extreme,major
+658,[Indexer] Double Indexing is back...,major
+659,[ManagedBuild] Weird Output:  Exception when build Sort project,major
+660,TVT3.0:  Error creating memory view in C/C++ debug,critical
+661,Comment syntax highlighting wrong in files with non-standard extensions,minor
+663,[Indexer] all headers get indexed on project open,major
+664,[Scanner] CModel Line Numbers are incorrect w/Scanner2,major
+665,CDT tutorials not clear how to move between pages,minor
+667,[Parser] Parser in infinite loop (ExpressionParser.errorHandling()),major
+668,[Content Assist]Cannot get malloc to complete on a c project,major
+669,Documentation for converting CDT 1.x projects -> CDT 2.0 projects,major
+670,type array are reversed,critical
+671,Project source excludes does not work,major
+672,[IProblem] Duplicate IProblems discovered,major
+673,CDT Tutorials on website not showing images,major
+674,[Scanner] Exit Inclusion occurs too soon,major
+676,[Parser] [Variant] Content Assistant terminates eclipse (Visual Age),major
+679,[Content Assist] Argument list popup does not referesh correctly,minor
+680,[Content Assist] Methods with implicit return value not listed in certain completion lists,minor
+681,Cannot Start Debugger: Debug Button Permanently Grayed Out : Was #71988,blocker
+682,[Scanner] Macro expansion issues w/Scanner2,major
+683,[Parser] environment macros with pararmeters are not respected by the parser,major
+684,[Parser] Timeout strategy does not affect scanner infinite loops,major
+687,[Refactoring] Renaming attribute renames the argument in member initialization list,major
+688,[Search] Search for references of pure virtual method yields no results,major
+689,"[Search] Search actions in ""magic"" include files do not work.",major
+690,[Performance] [Scalability] [Indexer/Search] Indexer needs to keep in mind external markers preference,major
+691,[Search] Search results in flat layout not sorted,major
+692,C/C++ Projects view can not refresh  C/C++ projects correctly,major
+693,[Search] Search takes long time to cancel,major
+694,[Refactoring] Renaming class name does not find references inside casts,major
+695,[Parser/Templates] instance typedef not usable as qualification,major
+696,[Search] Search in selected header file does not work,major
+697,[Search] Selection Search For Working Set ... does not always bring up dialog,major
+698,[Content Assist] Content Assist erases code,major
+699,"Unable to start Eclipse more than once per X session, SAXParseException in org.eclipse.core.runtime.adaptor.PluginParser",major
+700,Preprocessor Symbols ignored (in line of class definition),major
+701,[Search] Search not finding all references in a specific example,major
+702,"Unicode – ""*.mk"", ""*.d"" and ""makefile"" under Debug folder in Managed Make C++ Project can't be displayed correctly",minor
+703,Indexer:  Double-Indexing on Specific  Project,major
+704,CDT Core test suite not running,major
+706,[Refactoring] Refactor fails if indexer errors exist.,major
+707,Save Failed NULL,major
+708,[Scanner] Macro replacement confusion,major
+709,C++ files don't show up in C/C++ Projects view,major
+710,[Search] Search does not find references for methods in shapes example,major
+711,[Editor] Responsiveness horrible with large program,major
+712,"Performance:  Search on a specific class, all declarations took 7 minutes...",major
+713,[Scanner] Scanner doesn't distinguish C & C++ keywords,major
+714,Eclipse hangs on binary search or refreshing of the C/C++ project with 5500 files.,major
+715,error while loading shared libraries,major
+716,Indexer needs to store more info,major
+718,[Parser] Out of memory error when opening Mozilla .h source file,major
+719,It takes over 6 hours to index the Mozilla source code,major
+720,Build Console dramatically slows down builds,major
+722,[Scanner] IProblem offsets wrong for macro expansions,major
+723,[Parser] problems with Navigation,major
+724,[Managed Build] IDE hangs on startup due to race condition,major
+725,Failed luanching CDI Debugger,blocker
+726,[Parser] Struct referenced by parms of a function pointer typedef not found by Search,major
+727,Incorrect Update Site in the Help,minor
+728,ScannerInfo incorrecly parses ScannerInfoProvider command data streams,major
+729,NullPointerException at org.eclipse.cdt.internal.core.search.indexing.IndexerModelListener.processDelta,major
+730,Outline is messed up by preprocessing commands,major
+731,CDT 2.1 SDK Builds are un-unzippable,major
+733,Menu for -imacros and -std options,minor
+734,[Scanner] Wrong compare if the two declarations are in other number system.,major
+735,Make builder environment ecoding/decoding incorrect,blocker
+736,Renaming the Mozilla project (Standard C++ project) locks CDT,major
+737,"CDT Indexer throws syntax error on ""this"" in C function declaration",minor
+738,[Managed Build] Importing 1.2x mgd make projects doesn't update artifactName,major
+739,[Scanner Config] Importing 1.2.1 project does not update,major
+741,Managed C++ does not handle linked .c sources,major
+742,[Managed Build] UpdateManagedProjectAction fails for third party targets/configs,major
+743,CDT hogs Windows input loop when double clicking on a breakpoint,major
+745,Single character literals misparsed,minor
+746,"""Terminate"" hangs",critical
+747,[Content assist] fails when using string type,minor
+748,"[Managed Build] 1.2 supported spaces in build goal names, 2.0 doesn't",major
+749,"After reopening Eclipse, a C++ managed project is not usable in any language other than English",critical
+751,Parser Problem - ISourceElementRequestor's acceptFunctionReference is not entered,major
+752,Preprocessor problem - Multi line #defines are not accepted,major
+753,failures upon copy'n paste from Clipboard,minor
+755,Preprocessor problem - Multi line #if are not accepted,major
+756,[Parser] Incorrect parsing of scoped variables and intialisation,major
+757,[Parser] incorrect creation of cast expression,major
+759,"[Parser] In ASTSimpleTypeSpecifier.getTypeSpecifier, ""symbol"" is dereferenced to null",major
+760,"In ASTSimpleTypeSpecifier.getTypeSpecifier, ""symbol"" is dereferenced to null",major
+761,"[Scanner] Preprocessor problem - ""#if // comment"" is not accept",major
+762,usualArithmeticConversions doesn't handle pointers,major
+763,Missing built-ins for mingw,major
+765,[Code assist] Doesn't work anymore after creating a makefile,major
+766,[MBS] Build all results in a 'clean all',major
+767,[MBS] Project References hides build error markers,major
+768,Focus regression in single stepping mode,major
+770,Unable view context of structured local variable in Debug Variable View,major
+771,"VC error parser can't handle (###,##)",minor
+772,VC error parser can't handle remarks,minor
+773,Unacceptable compiling efficiency overhead in Console Window,major
+775,"Strange parsing and sorting in the ""Problems"" window",major
+776,"An internal error occurred during: ""Processing C/C++ Index Markers",major
+777,Syntax Errors while parsing system header files,major
+778,[Templates] TemplateFactory.addConstructor does nothing,major
+780,"ParserFactory.parse() is returning false, although no parse error is coming out",major
+781,InternalParserUtil.createFileReader is returning null,major
+782,"The memory view is ghosted/blank when the GDB console selected via ""Debugger process""",minor
+784,[MBS] NPEs on project import,critical
+785,[Parser] Syntax Errors: Problems with handling float value in the preprocessor statements,major
+786,Output of debugger and program mixes and appers in Eclipse console,major
+787,Function Folding not working with win32-API program,minor
+789,Parser error during type casting,major
+790,Structure with bit fields cannot be parsed,major
+791,Search doesn't distinguish between global and local symbols,minor
+792,Strange tooltip for C++ member function,minor
+793,Problem debugging multi-threaded embedded MIPS program with Eclipse CDT and Cygwin,major
+794,Debug error - NullPointerException,major
+795,"[Variant] Struct with name containing ""/"" character cannot be parsed",major
+798,Spaces in project name cause CDI debugger launch to fail.,minor
+799,NullPointerException when debugging using RC6 on OSX,critical
+800,Global arrays show only the first element in the Variable View,major
+801,Console output handling and interaction is broken,critical
+802,[Parser2] C Parser doesnt handle variable length arrays,major
+804,CDT changes behavior of Java editor,major
+805,IllegalStateException when opening C File on Eclipse M4,critical
+807,packages not loaded org.cdt.*,blocker
+808,Type cache update on save hangs Eclipse,major
+809,eclipse on IA64 crashes when trying to create a C/C++ project,blocker
+812,Compiling produces - INTERNAL ERROR! code won't compile,major
+813,Could not Launch GDB debug,critical
+814,Adding the cnature to a simple project will show duplicate projects in projects view,major
+816,GDB Input + Program Output in one console,major
+817,GDB Input + Program Output in one console,major
+818,GDB Input + Program Output in one console,major
+819,CDT Deadlock - Indexer?,major
+821,C/C++ templates broken,major
+822,CDT make error under sunos,blocker
+824,"Unable to complete action for feature ""Eclipse C/C++ Development Tooling SDK"" due to errors.",blocker
+825,Eclipse hangs after failing  to save a new build target,major
+826,IASTProblem.getMessage() does not map to file location,major
+827,[DOM] stdio.h - Location/offsets degrade as parse continues on,major
+828,CDT source code is not visible in /home/tools,blocker
+829,PathEntry Marker Jobs a plenty,major
+830,Full function prototype is not shown when folded,minor
+831,Incomplete Documentation  for a few features...,major
+832,"The ""Expression to watch"" field of the ""Add Watchpoint"" dialog is editable.",minor
+833,C/C++ Editor hangs on opening,critical
+834,Cannot Debug Command Line Executeables,major
+835,[Scanner Config] not updating list of newly found path,major
+836,Resolving all bindings on trilogy yields NPEs,major
+837,Very few bindings get resolved to declarations in stdio.h,major
+838,"""Varianbles..."" is displayed instead of ""Variables..."" in arguments tab",minor
+839,"[Parser][Ambiguity] IASTSimpleDeclaration parsed as IASTExpressionStatement ""s* p""",major
+840,Only the top 3 or 4 frames appear,major
+841,Save related projects before build,major
+842,Stuck makefile makes it impossible to save modified file,major
+843,[misc] QuickDiff causes out of memory during normal operation,major
+844,Build command if Preferences is not picked up when doing a build,major
+845,Binary folder is not displayed when build the managed make project first time,minor
+847,GRP2: Compiler discovery NL include path not recognized for Czech,major
+848,deleting or moving source folders leaves invalid entries in .cdtproject,minor
+849,crash when searching by . (dot) file in 'new xxx' dialog boxes,blocker
+850,The breakpoint set via Debugger Console is not displayed in breakpoints view,major
+851,Class browser: Showing wrong memebers if source code is changed,major
+852,Run Dialog contains spell-error,trivial
+853,"Syntax Error while invoking methods using ""this"" operator",major
+856,Error log is generated when selecting project properties indexer option,critical
+857,NPE is generated when pressing OK in project properties C/C++ indexer page,major
+858,Error log is generated when selecting project properties indexer option,critical
+859,Indexer is not slected by default when creating a new project,major
+860,NPE from managebuilder when importing a cdt 2.0.0 project into cdt3.0 workspace,major
+861,multiple entries for same project show in C/C++ project view,major
+862,TVT3.1 #60 - Debug does not work in Czech locale,major
+863,"""Program not Binary"" error while trying to debug",critical
+865,Content Assist with new DOM hangs eclipse,major
+866,"CThread.suspend suspends target, not thread",major
+867,"CThread.suspend suspends target, not thread",major
+868,Problem debugging mulidimensional arrays of chars,major
+869,"""Create new project"" is buggy in I200504040300",major
+872,[IBinding] StackOverflowError caused by resolving binding for cpp 8.2-7a,major
+875,[CTags Indexer] Click on Info ... button does nothing,major
+876,Cannot create project with DOM or Original C/C++ indexer being chosen,major
+877,Code assistant doesn't work with C files,major
+879,NPE generated for Opening a file outside of workspace,major
+880,NPE generated for Opening a file outside of workspace,major
+881,Spaces in workspace cause debugger launch to fail,major
+882,Managed make C++ shared library project does not work,blocker
+883,cross-gdb not recognized by CDT,blocker
+884,M6/Linux Can't launch - Can not create pty,major
+885,java.lang.UnsatisfiedLinkError: no spawner in java.library.path Error in HP-UX,major
+888,Definitions missing in new Search Engine,major
+889,Can create a c++ project correctly PLEASE HELP ME!!!!!,critical
+890,DBCS 3.1:[CDT] Error occurred when switching to C++ Browsing,major
+891,[IBinding] IVariable accepted where IType expected,major
+892,[IBinding] IVariable accepted where IType expected (C),major
+894,[Parser] infinite loop caused by invalid source code,critical
+895,conditional breakpoint doesn't work if it is created after debug session has been launched,major
+896,starting the debugger failed,blocker
+897,Type Cache / Indexer causes deadlock in org.eclipse.cdt.ui.tests' AutomatedSuite,major
+898,"Eclipse crash when trying to view a C++ project in the ""C/C++ Browsing"" Perspective",blocker
+899,I18N: Core model messages should not be concatenated,major
+900,Code Assist broken for QT Class headers,major
+901,Exception when viewing a plain text file,major
+902,Some help pages are external (from Eclipse website),trivial
+903,CBreakpointWorkbenchAdapterFactory getChildren should return empty array,minor
+904,The compiler cannot see files in an external include path,major
+905,C/C++ Search does not produce search results,major
+906,"Make, Env. Variables: need to restart IDE or re-open project to show user defined env. variables",major
+907,When I try to build I get Error: CreatePipe,major
+908,Cannot start Palm OS Developmer Suite,blocker
+909,[Parser] Bad AST from static function call,major
+910,Creating a new project during a background build will block,major
+911,[DOM AST] Code buffers not refreshed after file is saved,major
+914,Code Templates Insert Variable Missing Property,major
+915,CDT cannot open *ANY* CPP file.,major
+916,Minor bug in generating makefile results in being unable to link,minor
+917,Dom parser gets confused with typedefs and void *,major
+919,[Scanner] ASTNode offsets are wrong.,major
+920,[DOM Indexer] won't run on new Standard Make C Project,major
+921,[Open Definition] when indexing a project open definition gets blocked on the index,major
+922,completion totally broken,major
+923,All Reference fail to find functions with space before open-parentheses,major
+924,[Indexer][C Project][Open Def/Decl] no def/decl found for any indexer with C project,major
+925,flattenLocationsToFile returns null causing NPE in indexer,major
+926,Eclipse 3.0.2 crashes after Managed C++ Make Project corrupts,critical
+927,Unable to debug/run C++ managed project on AIX 5.2 and HP-UX B.11.11,blocker
+928,Add Contributed Wizard Page 3 broken,major
+930,Refactoring menu is missing names,major
+931,Linux AMD64 missing org.eclipse.cdt.core.linux.x86 3.1.0 has x86_64,major
+932,Extra semicolon generated after namespace,minor
+933,CDT can't open files without extensions,major
+934,Template name parsed incorrectly,major
+935,NamespaceCollector needs to search whole tu,major
+936,"""search scope for completion proposal"" ignored completely",major
+937,IScannerInfoProvider does not return IScannerInfo for a project,major
+938,[C Bindings] C bindings resolve to wrong declaration,major
+939,Interogating objects on a linked list displays incorrect values,major
+940,Interogating objects on a linked list displays incorrect values,major
+941,ScannerInfo UI extension point issue,major
+944,[Search]  Return parms not part of qualification matching,major
+946,Open Type Hierarchy: failed to create the hierarchy,major
+947,Open Type Hierarchy: failed to show supertype or subtype hierarchy,major
+948,[Refactoring]: failed to rename a class and Core Exception for cannot create file buffoer,major
+949,"The ""equals"" method of ""VariableDescriptor"" fails when stepping",major
+950,NPE during failing KnR declarator which has consumed too much,major
+951,[Memory View] Changing variable's value from variables view or memory view doesn't sync to each other,major
+952,"folding marks are gone, folding not possible",major
+953,Template C-header contains C++ comment (not ANSI standard),minor
+955,Managed make not include .c files,major
+956,[Scanner Discovery - Indexer] Indexer not notified of scanner info change,major
+957,Files with .c extension no longer included in the build (RC3+M7),major
+958,Attach to process fails with CDT 3.0M7,major
+959,Scanner Info Discovery support needs to allow specification of compiler command,major
+960,Breakpoints don't work with MingW gdb,blocker
+961,Cannot inspect pointer to structure,critical
+962," -environment-directory ""-r"" switch not supported in mi1",minor
+963,[MBS]: IDE freezes when drag Mgd project properites page,critical
+964,Latest EPL'd changes have invalid comment,blocker
+965,Compile error in IDebugLogConstants,blocker
+966,NPE in ReferencesSearchGroup which breaks right click in external files,major
+967,[Navigation] Offsets wrong if header files do not have a trailing new-line,major
+968,MBS 3.0 cannot convert CDT 1.2 & 2.0 projects,blocker
+969,Eclipse 3.1RC4 can't start,blocker
+970,Failed to create a new Class for std make project,major
+972,Make project types explicit for cygwin/mingw,major
+973,[Open Type/ Class Browsing] No namespace displayed,major
+974,Per file discovery + Extended Scanner Info + C Project does not work,major
+975,custom wizard pages are only displayed the first time the wizard is invoked,major
+976,Failed to fill context menu for external header file,major
+977,StackOverFlow when updating Type Cache,major
+979,Changing project-specific content type for .c extension not working,major
+981,managed build fails when toolchain declared at top-level,major
+982,Getting compilation error in eclipse.,critical
+983,.c-files ignored in managed C++ projects,major
+984,Dependencies between managed C++ projects,major
+985,Break points not working.,major
+986,Variables View collapses structures between debug actions,critical
+987,Variables View collapses structures between debug actions,critical
+988,CDT GDB-server doesn't stop at breakpoints outside the current file being executed,major
+989,[Scanner Discovery] Per-file options also given to header files incorrectly.,major
+990,NullPointerException on Ctrl-Space,major
+992,debugger lookup fails when using source compiled with managed make,major
+994,Module View: Missing context menu on detailed pane,major
+996,InvocationTargetException caused by SearchEngine.createSearchPattern,major
+997,IndexerManager leaks elementchangelisteners on reset(),major
+998,The modules view's icon is missing,minor
+999,CDT Refactoring doesn't appear to respect excluded source files settings,major
+1000,CDT Problem,critical
+1001,NPE in CModelBuilder when deleting project,major
+1002,Indexer Error: File not indexed because it was not built,major
+1003,Tool converter never called,major
+1004,isOptionEnabled never called,major
+1005,"TVT 3.1 - TCT 457 - ""Refactor"" needs to be externalized for translation",major
+1006,"TVT 3.1: TCT535 - repeating ""Rename"" menu under ""Refactor"" pulldown",major
+1007,TVT 3.1 - TCT 480 - Mneumonics do not function correctly for PathEntry variables new button,major
+1008,TVT 3.1 - TCT 489 - Code should not be right-to-left in BIDI,major
+1009,TVT 3.1 - TCT 492 - Truncated string,major
+1010,Shared Libraries ignored,blocker
+1011,JVM crashes upon selection of Projects properties dialog C++ build option,critical
+1012,[Open Type]: typedef in source file does not show up,major
+1014,Macro parameters should work with navigation features,minor
+1015,option enablement using 'live' values,major
+1016,Argument stopInMain has no impact in method org.eclipse.cdt.debug.core.CDIDebugModel#newDebugTarget,minor
+1019,"""Link with editor"" does not work in C/C++ Projects view",major
+1020,Outline view broken CDT 3.0 RC3,major
+1021,Getting exceptions when creating a new project,trivial
+1022,Getting exceptions when creating a new project,trivial
+1024,ClassCastException in GnuMakefileGenerator.addRuleForTool(),blocker
+1025,secondary input type on the target tool isn't used,major
+1026,CDT on AIX will not run or debug executables,blocker
+1028,Can't debug,major
+1029,CDT / Eclipses crashes frequently on random events,critical
+1030,Incremental rebuilding of index sometimes corrupts index,major
+1031,Indexer crashes Eclipse on code from www.boost.org,major
+1032,CDT 3.0 does not build for mingw,major
+1034,Debug continues to fail.,blocker
+1035,Debug continues to fail.,blocker
+1036,cdt.ui fails to show code templates preference page,major
+1037,CDebugTarget suspend & resume handling effect all threads,major
+1038,DVT 3.1 - TCT 627 - Filtering Tasks View Bad Link,major
+1039,"DVT 3.1 - TCT 629 - Wrong panel is shown for ""Debug launch controls""",major
+1040,CVS Checkout consistently crashes,major
+1041,CDT / Eclipse crashes unpredictably,blocker
+1042,C++ Indexer crashes (javacore included),major
+1043,"The ""Debugger"" tab of the launch configuration dialog is too wide.",minor
+1044,Blocking exception in CDT Project config dialog,critical
+1046,MBS: description for browseType attribute says only applicable to list-typed options,minor
+1047,Major crash and stack overflow if two projects reference each other,critical
+1048,Stack frames and expressions are unavailable due to timing issues,major
+1049,"Matching brackets match on all <, even if (a < 5)",minor
+1050,Internal error while launching gdb debugger,blocker
+1051,Eclipse don't start for second time,blocker
+1052,Unable to install eclipse-cdt plugin via update manager on Gentoo-amd64,major
+1054,C++ indexer doesn't work,blocker
+1055,Eclipse hangs while creating Managed C++ project,critical
+1056,Eclipse crash when try to open project properties,critical
+1057,gui hangs when I add directories for include,major
+1058,Fix for corrupt stack messages not working.,major
+1059,unexpected exception when trying to rename a variable,major
+1060,elementChanged doesn't get called with the changed element delta after refactoring,major
+1061,Can not open a C editor,major
+1062,Expanding Modules View throws SWTError: No more handles,major
+1063,Syntax error in the editor and outline view is incomplete,major
+1064,C++ Project View shows a wrong name for typedefs,major
+1066,Elipse CDT can't debug existing executable,major
+1067,CDT install not behaving good,blocker
+1068,Indexer gives no result,blocker
+1069,[Editor] Shift Right does not insert spaces (only tabs),minor
+1070,"An internal error occurred during: ""Launching""",major
+1071,"false ""__asm__""/""asm"" related syntax errors (gcc extensions)",minor
+1072,ASTNode::getRawSignature,minor
+1073,ASTNode::getRawSignature,minor
+1075,"""File not indexed because it was not built"" problem marker occurs unnecessarily?",minor
+1076,File search fails,blocker
+1079,org.eclipse.cdt.internal.core.pdom.PDOMUpdator has println,minor
+1080,Error launching 'cygpath' command,major
+1081,C/C++ Attach to Local Application fails on FreeBSD,blocker
+1083,"long messages during launch cause gdb to timeout, launch to fail",major
+1085,Build in Progress continues even though Build has ended,minor
+1086,Build Continues though Makefile build has ended,minor
+1087,makefiles generated in a managed make project has syntax errors,major
+1089,creation of c++-class: .cpp-file not created,major
+1090,"""Restore Viewer State Error"" for Registers View.",major
+1091,"CProjectPlatformPage: ""Show All Project Types"" checkbox resets ""Project Type"" dropdown",minor
+1092,outline shows only global include,major
+1094,"refactoring dies with out-of-memory, while indexer is running",major
+1095,macro expansions incorrectly handled,major
+1097,"""go to defintion"" not reliable",trivial
+1098,Error Markers in C/C++ Editor & so does not appear in the Problems view.,minor
+1099,Indexer hangs when opening the first project,major
+1102,"Part selection(""#eli"") for ""#elif "" statement",trivial
+1105,The libspawner.so file is missing in the distribution.,major
+1107,Indexer don't recognize Paths from Root without Driveletter,major
+1109,[Preferences] Consumers of File/Directory FieldEditor values need to quote/escape,minor
+1110,"Indexer runs, even when indexing is set to ""No Indexing""",major
+1111,"""variables""-view gets no vertical scrollbar",trivial
+1112,Managed Make: Build Project does a clean when it shouldn't,major
+1113,"C/C++ indexer hangs parsing the same file, give Malformed tree assertion failures",major
+1115,C/C++ indexer runs at creating new project or creating new file,blocker
+1116,Can not compile simple programs,blocker
+1117,"make clean should use ""rm -f"" rather than ""rm"" (?)",minor
+1119,Can not use org.eclipse.cdt.testing-3.0.2,minor
+1120,Build variables of type Path List not handled by indexer if used to specify include dirs,major
+1121,macros no longer work in tool commands,blocker
+1122,[Content Assist] should respect existing parenthesis,trivial
+1123,A lot of output crashes Eclipse/CDT,critical
+1124,Wrong error message for MBSCustomPageManager,trivial
+1125,Remove killer.cpp and killer.h,major
+1127,Make target builds are broken,blocker
+1128,CDocumentSetupParticipant must not install a default partitioner,major
+1129,Launching C application results in crash,blocker
+1130,Build hangs using cygwin or mingw,major
+1131,Error parser hangs on certain build output,major
+1132,NullPointerException when selecting any indexer in preferences,critical
+1133,NullPointerException when selecting any indexer in preferences,critical
+1135,Build 3.2M6 crashes on startup after UI layout changed in previous session,blocker
+1136,Cdt build doesn't correctly pass library as parameters into g++/linker,major
+1137,make targets get corrupted,major
+1138,Regression: Problems view is not populated,major
+1139,[Progress] cancel build does not cancel build immediately,minor
+1140,MBS: explicit rules generated for each file if the project location contains spaces or spec chars,major
+1141,Open Type does not work anymore,major
+1142,Eclipse freezes when using indexer,critical
+1143,can't attach to running process using gdb with eclipse,blocker
+1145,[Editor] Preferences opened from context menu should include C/C++ editor pages,minor
+1146,"Class creation wizard doesn't allow base class (""No classes available"")",major
+1147,[Editor] Restoring Assembly Editor on startup throws lots of NullPointerExceptions,critical
+1148,"Confusing ""C/C++ Search"" and ""Old C/C++ Search""",minor
+1149,"Post-build causes errors on ""dependencies""",major
+1151,Building a single resource menu issues,major
+1152,Managed builder is interfering with all non-MBS projects,critical
+1153,"Renaming a source directory causes the folder icon to lose the ""C"" decoration",minor
+1154,Spawner not working?,blocker
+1156,Launching debugger causes segmentation fault.,major
+1158,CDT throws dozens of exceptions at startup,major
+1159,CDT3.0.2 Plug-in API Refrence fails to initialize,minor
+1164,Breakpoint icon on editor ruler is not repainted upon state change,major
+1166,Indexer has issues on remote mounts,major
+1167,Auto complete in C++ doesn't seem to be working,major
+1168,Indexing the following file hangs the CDT parser,major
+1169,"IllegalArgumentException during: ""Save Project Preferences"".",major
+1171,Open Declaration does not work for constructor/destructor,major
+1172,stack overflow exception in indexer,major
+1173,Error launching debug session on MacOSX,major
+1174,Open Declaration [F3]/Open Definition [Ctrl+F3] incorrect behavior,major
+1175,Eclipse crashes in Managed Make C++ Project when closing an angle bracket (>),blocker
+1178,C/C++ Build properties causes crash,critical
+1179,The watchpoint property dialog shows the filename rather than the project.,minor
+1180,The watchpoint property dialog shows the filename rather than the project.,minor
+1183,Wrong file is getting  opened,major
+1186,Cannot debug on Windows XP or Solaris 9: No stack,blocker
+1187,Cyclic import of 2 project sometimes causes exceptions,major
+1189,many java.lang.StackOverflowError in indexer,critical
+1190,Searching for enums is broken.,major
+1191,CDT does not emit proper CElementDelta when rename refactoring is done.,critical
+1192,[MBS]ClassCastException in the multiversion support functionality for tools,major
+1194,managed makefile,major
+1195,CModelBuilder runs into infinite loop,critical
+1197,[Preferences] Eclipse blocks at startup due to saved open CDT editor,major
+1198,"Declarations-> Project, searching returns nothing",major
+1199,Parsing header files even when set not to parse header files,major
+1200,New Class wizard does not give error when entered a class name that already exists,major
+1202,Rename on C++ elements in C/C++ Projects view changes the filename instead of the element name.,major
+1204,Accidental installation into Eclipse 3.1.2,minor
+1206,c++ indexer: collision betw. variable & namespace name if both have the same name,minor
+1207,C++ Indexer no longer shows progress indication,minor
+1208,Loop at startup - reoccurance of 135761?,blocker
+1209,Infinite trap when trying to launch Eclipse.,blocker
+1210,CDT Indexer and Language changes are incompatible,blocker
+1211,Disassembly Window hang for inline function,critical
+1212,NPE in ToggleBreakPointAdapter,major
+1213,Can't create new C-project,major
+1214,"[Debug] [CDI] Watch expressions cause ""memory leak"" / slow down",major
+1215,some tasks when cancelled doesn't get cancelled et all,major
+1217,Single steping a mult-thread program to fast results in unexpected behavior,major
+1219,Search for nested namespaces broken.,major
+1222,Mutex and semaphore locks not honored in debug mode,major
+1223,Livelock in CDT,blocker
+1224,SWT Error when creating XML/HTML/CSS/JavaScript editor,major
+1225,PDOM Search for methods and fields broken?,major
+1227,The DSF plug-ins miss the provider name,minor
+1228,Inactive code highlighting assumes syntactically correct #ifdef's,major
+1229,perference change listner error while launching Eclipse,blocker
+1230,gcc per file scanner discovery fails for recursive make in subdirectories,major
+1231,Open Definition gets confused by forward class declaration,major
+1233,UI hangs when expanding ELF binary file,major
+1235,Duplicate addListener call in Signals view,trivial
+1236,Debugging multi-threaded C++ apps fails in eclipse,major
+1237,Unable to start CDT feature,major
+1239,console truncate the gcc output,major
+1240,console truncate the gcc output,major
+1243,A copied project uses the same PDOM database as its master,major
+1244,org.eclipse.cdt.internal.core.CDescriptor performs unnecessary encoding conversion on save,minor
+1245,character encoding problem with IProposalFilter.java,blocker
+1246,character encoding problem with IBuildEnvironmentVariable.java,blocker
+1247,Deadlock in PathEntryManager / ManagedBuilder,major
+1248,Hygiene - no version tolerances,critical
+1249,"An internal error occurred during: ""Launching"".",major
+1250,Eclipse failed to launch for German and Spanish translations,blocker
+1251,C/C++ Template preference page didn't get translated properly,blocker
+1252,"""An unexpected error"" crash",major
+1254,ImportExecutableWizard allows to finish with an empty configuration name,major
+1256,Debug session is not to be created,major
+1257,Incorrect offsets in PDOMPointerType and PDOMQualifierType,minor
+1259,"If I have a link file like this : ""ln -s ../ src"" in my project , Eclipse will easily lead to out of memory while refesh the project .",trivial
+1260,Duplicated accelerator key in New Source File dialog,minor
+1261,NPE on trying to search for References in Working Set,blocker
+1262,[Indexer][Scanner] Strange null characters during C source parsing,major
+1263,Clicking includes in C/C++ project causes eclipse exception,blocker
+1264,typeid-node cannot be differentiated of a typeof-node,minor
+1265,Full indexer fails on parsing freetype library.,major
+1266,"Make, order of -L cause g++: no input files error",major
+1267,"An internal error occurred during: ""C/C++ Indexer""",critical
+1268,Modules View does not compile with Eclipse 3.3M3,blocker
+1269,Error while loading workspace,major
+1270,Cannot start debug Session,major
+1271,Other Objects on Win,major
+1272,Incorrect syntax highlight of numbers,minor
+1275,Parser fails with stack over flow exception,major
+1276,Clean Project cleans the whole workspace,major
+1277,GCC error parser depends on English locale,major
+1279,End key should go to very end of line,minor
+1280,Last function or structure not folding in C,minor
+1281,Indexer does not index imported folders.,major
+1282,indexing options are not working,blocker
+1283,Internal Builder does nothing,major
+1284,[breakpoints] Debugger stops at breakpoint which is disabled,major
+1286,CDT ignores all breakpoints on shared-libraries and suspend button is always disabled,blocker
+1287,Build failed: Internal builder error occured,major
+1289,Deadlock accessing build info while indexer is running,critical
+1290,Error notifying a preference change listener. Check the log for details.,blocker
+1291,class name is always reported as empty in new class wizard,major
+1292,org.eclipse.cdt.core.parser.CodeReader defects,minor
+1294,Paging scheme for PDOM prevents indexing of Firefox 2.0,critical
+1297,Outline not including every functions in file,major
+1298,Can't start eclipse - infinite loop with error message boxes,critical
+1299,Deleting a project deletes the files within the project,major
+1300,type-id expression node has incorrect length info,minor
+1301,Internal builder does not handle linked folders,major
+1302,Error notifying a preference change listener,major
+1303,Creating C/C++ run configuration triggers ArrayIndexOutOfBoundsException,major
+1304,Cannot open editor for external translation units,blocker
+1305,Indexer tasks are deadlocking in UI JUnit test,blocker
+1307,[terminal][serial] RXTX prints to stdout when terminal is opened,minor
+1308,"ANSI C's 'scanf()' and 'printf()' confused in Console [see comment 2, comment 8, comment 43 and comment 47 for workarounds]",major
+1309,ANSI C's 'scanf()' and 'printf()' confused in Console,major
+1310,ASTProvider locked up waiting on a notify().,major
+1311,[Working Set] working set cannot be restored for closed projects,major
+1312,[Scanner Discovery] Per file scanner discovery is broken with the New Project Model functionality,major
+1313,Eclipse launches a large number of programs if it is forced to quit,minor
+1314,"Opening a project performs an unwanted ""make clean""",major
+1315,Not showing apps in Navigator Window,major
+1316,Content assist always displays base types,major
+1320,New Project Path cannot be a subset of Current Workspace.,major
+1321,"Call hierarchy, internal error occurred during: ""Child Node Computation"".",major
+1322,Debug is broken after M5,major
+1323,Problem with parsing of standard gcc header files,major
+1324,[New project model] To include dirs displayed in C/C++ Project view,major
+1325,[New project model] Invalid warnings about includes in problems view,major
+1326,[Build] Include directory from workspace shows up invalid,major
+1329,missing builder (org.eclipse.cdt.make.core.makeBuilder),major
+1330,Suspend and terminate does not work with gdbserver and Cygwin,blocker
+1331,CDT debugger does not stop when GDB reports that it stopped execution,blocker
+1332,C/C++ Parser preferences page should be merged with the Indexer page,minor
+1333,Labels on C/C++ preference page are confusing,minor
+1334,bad capitalization of GNU,minor
+1335,Save file problem,major
+1336,Indexer throwing exceptions,major
+1337,C++ Perspective not show with CDT-4.0 M5,blocker
+1338,Crash with Ubuntu Edgy (6.10),blocker
+1340,Build directory is not honored for Makefile project,major
+1341,No way to change order of include directories,major
+1342,[patch] single-line comments incorrectly retained in macros,major
+1343,Make Target build fails to build subcomponents,major
+1344,Extra include paths self generation bu the CDT,major
+1345,"Type resolution does not work with class ""using"" directives",major
+1347,Syntax scanner failure with macros in function prototype declaration,major
+1349,Mock33: [English] Import C/C++ Executable Wizard Problem,major
+1351,cdt.ui won't compile against Eclipse M6,critical
+1352,"[model] Rename ""view model"" references to ""viewer model"".",minor
+1353,New source folder wizard dont updates / overwrites source locations,major
+1354,new source folder wizard creates extra includes paths,major
+1355,Workspace hangs after typing . (period / full-stop) character,major
+1356,BIDI3.3:HCG_  C/C++ editor RTL in mirrored Eclipse.,major
+1357,BIDI3.3:HCG_ Console works wrong with UTF-8,major
+1359,Stack Overflow in PDOMCPPNamespace,critical
+1360,[Scanner] Infinite loop with incomplete string literals in macros,major
+1361,CModelBuilder2 does not set ICElementKind correctly.,major
+1362,CModelBuilder2 does not build model correctly for function pointer with array parameter.,major
+1363,Indexer Include Browser does not handle conditional recursive  inclusion properly,major
+1364,Indexer does not index copied files.,major
+1365,Source missing from SDK builds,major
+1366,Linker flags not being saved in C/C++ Build settings property page,major
+1367,ClassCastException in indexer,major
+1368,NPE in indexer,major
+1369,NPE when startup up Eclipse: CView/Managed build,critical
+1370,DBCS3.3: Convert C/C++ project wizard won't be launched,major
+1371,Converting Managedmake Project from 3.1.2 to 4.0.0 failed,major
+1372,Wrong enabledWhen condition causes property page to be displayed  in improper place,critical
+1373,Preferences dialog error,blocker
+1374,"""Remove All Globals"" action is always enabled",minor
+1375,[Content Assist] no proposals after left parenthesis in plain C,major
+1376,Not implemented exception during parsing CPP files,major
+1377,Some error markers are not cleared on rebuild (clean),major
+1378,[Project paths UI] Exclusion pattern dialog shows JAVA example,minor
+1379,"""Use Parallel build"" option reset when restarting eclipse",minor
+1381,DBCS 3.3 - No Convert C/C++ Project wizard on Vista,major
+1383,Properties dialog for debug processes in CDT can not be closed,blocker
+1384,building a make target deletes all my source files,major
+1385,Open Declaration can get into endless loop,major
+1386,Missing class: org.eclipse.cdt.managedbuilder.ui.tests.TestCProjectPlatformPage,major
+1388,Source inclusion/exclusion bugs and more tests needed,major
+1389,[Bindings] ClassCastException in plain C name resolution,major
+1390,tool specific optionPathConverter is no longer called when updating CDT 3.1.2 to CDT 4.0.0,blocker
+1391,[Project Model] CoreModel.create(IFile) cannot be used in jobs,major
+1392,auto include comes with using namespace directive,minor
+1393,Editing the source lookup path does not take effect immediately,minor
+1394,CDT crashes unexpectedly while trying to load the native library winreg with IBM JVM,blocker
+1395,Incorrect syntax highlighting of preprocessor # operator.,minor
+1397,[europa] Unable to cancel in error properties dialog,blocker
+1398,[Binary Parser] different binaries of the same name are not treatted propely,major
+1399,Page missing at the new C/C++ project wizards,blocker
+1400,[Index] PDOMNode.hashCode() slows down indexing,major
+1401,[Index] PDOMBinding.equals() does not comply with hashCode(),major
+1402,"gdbserver debug disables suspend on Intel Mac, but is OK on PPC Mac",major
+1403,[debug] NullpointerException at debugger,major
+1404,"CDT4.0 problem with MBS enumerated option definition using resourceFilter=""project""",major
+1405,creating project deletes all files,critical
+1406,LPG is not getting pulled into the C99 feature,blocker
+1409,PDOMCPPClassType.find(String) is broken.,major
+1410,Error parsers settings are ignored,major
+1411,Parser indicates friend declaration as class field declarations,major
+1412,make targets are not persistent between Eclipse program invocations,major
+1413,Stack overflow in indexer,critical
+1414,Convert To... menu item should be moved,minor
+1415,ICDITarget2.getGlobalVariables() returning a non CDI type,critical
+1416,Link view selection to active editor does not work,major
+1419,[Template Engine] ANSI C Hello World template generates C++ files and not C,blocker
+1420,java.lang.OutOfMemoryError: PermGen space,blocker
+1421,CDT build settings lost,major
+1423,Parser does not understand smart pointers,major
+1424,C Compare editor should always be LEFT_TO_RIGHT,major
+1425,"TVT33:TCT174: pl: ""Add Watch Expression"" dialog window too narrow/cannot resize",major
+1426,TVT33:TCT181: Signal view column headings truncated,major
+1427,"Cannot remove the ""lib"" prefix from a managed build shared object name",major
+1429,TVT33:TCT209: da: Note truncated on Appearance page of Settings window,major
+1430,TVT33:TCT206: da: Performance note truncated in Settings windows,major
+1431,"TVT33:TCT196: cs : ""Use Default"" checkbox truncated in Run Config dialog Argument tab",major
+1432,TVT33:TCT227: translated string truncated for New Code Style dialog,major
+1433,TVT33:TCT229: pl: label truncation in C/C++ Build panel,major
+1434,TVT33:TCT224: pl: hardcoded symbol 'mb',minor
+1435,"TVT33:TCT202: DE : CDT, Button truncation on Add Directory Dialog",major
+1436,TVT33:TCT231: NL: Template Default Values preferences UI not externalized,major
+1437,TVT33:TCT239: pl: 'Select variables' dialog title not externalized,major
+1438,TVT33:TCT250: ES Language Mappings panel in Linux is too big,major
+1439,TVT33:TCT223: pl: string truncation in indentation profile panel,major
+1440,TVT33:TCT258: da: English string Preference Configuration on Discovery Options tab,major
+1441,TVT33:TCT232: pl: hardcoded 'Configuration1' string,major
+1442,"TVT33:TCT251: da: truncation in New CDT project wizard, Preferred toolchains tab",major
+1445,TVT33:TCT259: cs : Truncated text - Project Language Mappings properties description,major
+1446,TVT33:TCT230: ar: 13.003080 Truncated text in error message in Hovers preference,major
+1447,TVT33:TCT256: ar: 13.003344 Dialog is not BIDI enabled,major
+1448,TVT33:TCT238: Truncation error in Language Mappings file properties,major
+1449,TVT33:TCT240: ko: wrong sentence order in New Project Wizard pref page,major
+1450,TVT33:TCT274: da: Unexport button truncated on Symbols tab,major
+1451,"TVT33:TCT273: ja: ""Debug"" and ""Release"" shared in the menu and in the file system",major
+1452,"The meaing of ""case"" is confusing for the messages shown in New Class Creation Wizard",major
+1453,TVT33:TCT283: ar: 13.003510 Parenthesis incorreclty displayed in Environment pref page,major
+1454,TVT33:TCT214: Apostrophes missing in problem message,major
+1456,".cproject written on every build, bad for Team",major
+1457,[New Project Wizard] deletes src-code when cancelled.,critical
+1458,CDT tutorials contain obscenities,blocker
+1459,TVT33:TCT279: da: [Active] in English on References tab (project properties),minor
+1464,Need an API to if a org.eclipse.cdt.core.model.ITranslationUnit is External,major
+1466,"An internal error occurred during: ""Open Declaration"".",major
+1467,"unable to go to the source in ""Problems view"", CDT4.0 RC2",major
+1468,org.eclipse.dd.dsf.debug.ui.jar does not include the plugin.xml file,major
+1469,folding of a multi line function definition,minor
+1470,The MBS new project wizard allows finishing without asking custom pages first,major
+1472,When using 'Shift Right' the editor should not scroll,minor
+1473,TVT33:TCT265: cs : Path and Symbols properties page (References tab): Unclear button label,trivial
+1474,Stopping a debugg session causes all user processes to terminate,major
+1475,Codecompletion is not working for std-classes and only restricted in own classes,major
+1477,Debugging with Cygwin environment not working,blocker
+1478,functions are folded when navigating to an unopened file,minor
+1479,[CDT DOCS] HTML files not generated for CDT Plug-in reference,major
+1480,Add Tasks view to CDT Perspective,minor
+1481,todo variable needed for templates,minor
+1482,xlc plugin doesn't show up when running the build packaged from Eclipse.org,blocker
+1483,MBS fails with UnsatisfiedLinkError on AIX loading spawner,blocker
+1485,UPC files are ignored by the indexer,major
+1486,TVT33:TCT662: pl: Add Paths dialog window does not resize,minor
+1487,C/C++ Index does not get populated,major
+1488,can not start make,critical
+1490,run a target in the subdir of project in maketargets view cause the the subdir of project  in project view disppeared,critical
+1491,run a target in the subdir of project in maketargets view cause the the subdir of project  in project view disppeared,critical
+1492,run a target in the subdir of project in maketargets view cause the the subdir of project  in project view disppeared,critical
+1493,Open Declaration shows several duplicates,major
+1494,Find References => NullPointerException,major
+1495,DBCS3.3: unable to save customized preferences of make file project,major
+1496,NPE in New Project Wizard,blocker
+1497,Outline view sometimes does not populate,major
+1498,[Project Model UI]NPE in creating the new configuration for makefile projects,major
+1499,Open Dialog: cannot locate struct members,minor
+1500,Include at wrong position in Outline,minor
+1501,"About information missing from c99, upc, and xlc features",blocker
+1502,NPE at Makefile Project preference page on the Mac,major
+1503,"ISV implement IProjectEnvironmentVariableSupplier in order to provide project level in cdt3.0 should still kept as Environment Variable provider in CDT4.0,not a macro provider",major
+1504,Dependencies with whitespaces returned by tool's custom dependency calculator passed to makefile incorrectly by CDT,major
+1505,CDT GNU Make Error Parser doesn’t parse many common errors generated by make,major
+1506,Build selected files doesn't work in some cases,major
+1507,[Editor] double-click to select the first word of a file does not work,minor
+1508,Error parsing errormessages from compiler,minor
+1509,Project is not rebuilt at some cases after project build settings change,major
+1510,Cannot launch C/C++ application on AIX,blocker
+1512,Eclipse can't read or write to .cdtproject or .project if they are hidden on XP system!,major
+1514,[C99 Parser] F3 doesn't work on macro invocations,major
+1516,User defined Macro(in cdt v3.0 managed project)was  lost when imported into CDT 4.0,major
+1517,[formatter] deleting whitespaces between words while formatting,major
+1518,binary parser properties lost on CDT-4.0.0-I200706261300,major
+1519,[process] Stopping a debugg session causes all user processes to terminate,major
+1522,"Can't build on mac os x: ""can't locate file for: -lgcc_s.10.4""",major
+1523,"debugger doesn't halt on this program, and also eclipse goes into endless loop.",critical
+1525,Customized tasks tags aren't shown in the task view,trivial
+1526,add/edit/move buttons at include-path dialog don't work,major
+1528,Postmortem debugger does not work,major
+1530,Silly bug in BuildEntryStorage.java,major
+1531,Indexer (fast & full) / eclipse hangs on silly macros,minor
+1532,CDescriptor junit test fails occasionally,minor
+1534,Parsing C/C++ results in errors in CReconciler,major
+1535,Deadlock on Launch,major
+1536,Deadlock during project creation,critical
+1537,Eclipse is stressing to use since it requires concentration to verify when it is safe to type,major
+1539,empty initializations of global C vars,minor
+1540,Error while using C/C++ Postmortem debugger,major
+1541,Can't add multiple source folders simultaneously,minor
+1543,Multiple warnings referring to the same code line are not handled properly by the Problems view,minor
+1544,[Indexer] Full Indexer with dependent projects corrupts the index.,major
+1545,CfgScannerConfigInfo should getContainer with proper profileId,major
+1548,Internal builder does not use outputPrefix,major
+1549,"[content assist] using C, static variables defined in file scope can't be ctrl-space completed.",major
+1550,CPPASTForStatement implements IASTForStatement and the subinterface ICPPASTForStatement,minor
+1551,export the org.eclipse.cdt.internal.ui.preferences.formatter package,trivial
+1552,edit coloring only reflects last keystroke,major
+1553,improve recovery from unclosed include,minor
+1555,Eclipse hangs when checking a project out of CVS,critical
+1556,Template resolution problem when using index,major
+1557,Type resolution problem with namespace,major
+1558,Parser gets confused by templates without index,major
+1559,tool-integrator converter is not invoked for file-level tool modification,major
+1560,Problem with Configuration management in Makefile Project,major
+1561,Opening a C++ file in the debug perspective raises exceptions,major
+1562,CDT Project Wizard does not show when workspace is on share with $ in name,minor
+1563,"Index do not work in between #if, #endif block",major
+1564,CDT contributions to ProjectExplorer slows performance down dramatically,major
+1565,flexible hierarchy bug/optimization causes query with incorrect IChildrenUpdate[] array length,critical
+1568,u-boot debugging crashes for ppc74xx architecture,blocker
+1569,ArrayStoreException in Toolchain Editor,critical
+1570,[ scalability ]  PDOM manager is very aggressive with Job usage.,major
+1571,DVT33:TCT754: PL: Invalid cdt_debug_run01.png image,minor
+1572,DVT33:TCT764: JP Missing Icon,minor
+1574,update modes should move to action menu; always & manual modes should be available on toolbar,major
+1576,DVT33:TCT798: DVT33: CZ_missing topic in the html page,minor
+1577,(regression) additional newWizardPages not called unless stepped to.,major
+1578,DVT33:TCT812: FI - Titles missing link info,minor
+1580,DVT33:TCT822: el - CDT - Broken link to cdt_t_show_proj_files.htm & cdt_t_prvw_hide_files.htm,minor
+1581,DVT33:TCT821: el - CDT - Broken link to cdt_t_proj_ref.htm,minor
+1582,DVT33:TCT825: el - CDT - TOC navigation link differs from topic title of target page,trivial
+1583,DVT33:TCT823: el - CDT - Broken links to cdt_o_views.htm & cdt_o_perspectives.htm,minor
+1584,DVT33:TCT824: el - CDT - Broken link to cdt_u_sprop_mdiscovery.htm,minor
+1585,NPE caught in ManagedBuildManager.adjustHolder(),major
+1586,DVT33:TCT828: el - CDT - TOC navigation link differs from topic title of target page 3,trivial
+1587,DVT33:TCT830: el - CDT - TOC navigation link differs from topic title of target page 5,trivial
+1588,DVT33:TCT827: el - CDT - TOC navigation link differs from topic title of target page 2,trivial
+1589,DVT33:TCT829: el - CDT - TOC navigation link differs from topic title of target page 4,trivial
+1590,Byte Order Mark in topics_Getting_Started.xml causing problem,major
+1591,Improve lexicographical sort order in the Outline view,minor
+1595,Code formatter with Qt's emit,major
+1598,Null pointer exception on Launch of app in Windows,blocker
+1599,[update policy] Update Mode (cache) is not preserved between sessions*,major
+1600,Some font choices/sizes do not render well in the traditional memory rendering,major
+1601,[update policy] Update Mode radio menu & toolbar items do not stay in sync,major
+1603,FindReplace incorrectly sets value on the memoryblock at the absolute address; should use offset,major
+1604,Two problems with loading build configuration data,major
+1606,New Class Wizard does not handle paths properly on case insensitive filesystems,major
+1607,new selection should set DND.SELECTION_CLIPBOARD data,major
+1609,File makefile does not match its benchmark. when using JDK1.6.0_02,critical
+1610,Launch config settings are not displayed in C/C++ Postmortem Debugger -> Debugger Tab,major
+1612,Discovery Option with managed project doesn't seem to work,major
+1613,add constructor methods to AST node classes,minor
+1614,Modules view doesn't compile against platform 3.4M2.,major
+1615,"Raise ""Zero length BigInteger"" errors when reffering to the vector registers",major
+1616,failures in MBS UI tests,blocker
+1617,[terminal] [serial] terminal can hang the UI when text is entered while the backend side is not reading characters,major
+1618,endian cleanup,major
+1619,build automatically is not working,major
+1620,find replace mishandles searches for values greater than the max signed value of byte,major
+1621,CDT can spend as much as 10 seconds waiting for GDB to start,major
+1623,Wrong global variables syntax coloring for template parameters,minor
+1624,Change history color does not work until after the first suspend event,major
+1625,Find/Replace performance is poor,major
+1626,"text pane should respect the set character mode, US-ASCII, ISO_8859_1, ...",major
+1627,module local variables not visible in variables view,major
+1629,Eclipse hangs at startup when loading workspace,major
+1630,Need support for importing C++ Libraries,major
+1631,CDT Common builder does not handle IncrementalProjectBuilder.INCREMENTAL_BUILD as required,critical
+1632,Missing cdt.doc.isv files,major
+1633,"Need to update CDT document to include the information that CDT 4 overrides the platform settings for ""Build Automatically""",major
+1634,C project wizard shouldn't use C++ icon,minor
+1635,Source lines are not available in disassembly view for imported executable files,major
+1636,TextFileBufferManager failed to notify an ITextFileBufferListener,minor
+1637,Memory monitor changed to support address spaces in 4.0.2,major
+1638,Need to reset CSettingEntryFactory when loading/applying configurations,major
+1639,"Setting Break points through Run menu fails in Multi-page Editor, And Missing Edit menu options in MPE.",major
+1640,org.eclipse.dd.dsf.mi.ui build errors cause nightly build failure,blocker
+1641,Failure to debug-attach on Windows using GDB,critical
+1644,Platform 3.4 M4 breaks the DSF build.,critical
+1646,move C99 preprocessor tests into core test suite,minor
+1647,Identifier markup,minor
+1648,Misuse of IMarker.LOCATION attribute breaks API and leads to ClassCastExceptions,major
+1649,NPE starting up in Linux in MingwEnvironmentVariableSupplier,minor
+1650,Type resolution problem with template and typedef in index,major
+1652,Template type resolution problem affecting std::vector,major
+1654,Adding a preprocessor symbol erases previously defined ones,major
+1656,Run away pop-up window in C++ editor,major
+1657,Template type resolution problem affecting std::vector (no index),major
+1658,"If actual number of stackframes is > 100, a dummy stackframe labelled "". . ."" does not appear at the bottom",minor
+1659,"CygPath#getFileName will not return when ""name"" is empty",major
+1660,open resource or open element crashes eclipse,major
+1661,Settings for build configuration discarded,critical
+1662,[Directory parsing] Cyclically linked directories cause Eclipse to hang and then to crash with an out-of-memory exception,major
+1664,CDT Project Template Engine macro replacment code cannot handle consecutive replacements.,major
+1665,Code completion fails in derived classes with function overloading,major
+1668,Starter.exe behaving different than Runtime.exec() during building Standard Make Project,major
+1669,[update modes][debug view][launch] Processes sometimes do not appear in Debug view upon launch.,major
+1670,NoClassDefFoundError with CDT 20080211,blocker
+1671,New CDT Project Wizard causes Vista UAC warning,major
+1672,[variables] Variables view no longer updates properly,major
+1673,[registers] NPE in RegisterGroupsVMNode,major
+1674,[run control] Exception when trying to step over the last statement in a program.,minor
+1676,[Content Assist] proposals take 55 seconds to be displayed,major
+1677,Macro Expansion - Open Declaration exception,major
+1678,Hanging on an existing pipe,blocker
+1681,Using Java 1.5 build machine can generate invalid byte code,major
+1682,Performance switches -p -pg should be propagated to linker too,minor
+1683,ResourceConfiguration Build settings bug,major
+1684,The hover pop-up displays C/C++ comments for classes with wrong encoding,minor
+1685,eclipse suspend makes gdb exit when remote debugging over ssh,major
+1686,"[Template Engine] Problem with type=""select"" and selected item",major
+1687,[view model] checkService of AbstractDMVMNode should be deprecated,minor
+1688,Overriding make variables in build command does not accept quotes,minor
+1689,Frequently Crash on Linux RHEL 5.1 i386/x86_64 Platforms,critical
+1690,Problems setting per resource tool settings,major
+1691,[console] Application writing a lot to the output deadlock.,major
+1692,Cache is never cleared in GDBControl,minor
+1693,Clean with internal builder ignores success of clean command.,major
+1694,[concurrency] Query objects in debug view model should call RequestMonitor.done() even when canceled.,minor
+1695,CDT builds projects twice,major
+1696,deleting Source Folders will corrupt Defined Symbols,major
+1698,Code formatter strips whitespace when it shouldn't,major
+1700,CDT breakpoint handling does not scale to larget projects,major
+1703,PropertyBasedLabelProvider can use NPE in update routine,major
+1705,[Refactoring] Changegenerator does not consider comments,minor
+1706,Testoutput of the Comment Handler Test is cryptic and not documented,minor
+1707,IIndex javaDoc for constants interchanged,trivial
+1709,Traditional Rendering: ViewportCache.run() synchronization problem,major
+1710,Inserting tabs as spaces with tabs already in the file is inconsistant,minor
+1712,Template resolution problem affecting STL iterators,major
+1713,[number format detail] Number format detail pane calls a service on a backgroun thread.,major
+1714,Template type resolution problem affecting std::map,major
+1715,Template type resolution problem affecting std::map,major
+1716,[debug view] Call to sleep() breaks debug session,major
+1717,[expression view] The AddExpression line is blank,major
+1718,Error message while indexing,major
+1719,[number format detail][modules] Refactor and simplify the detail pane implementation.,minor
+1721,Cannot import things from src directory,major
+1723,StackOverflowError in indexer,major
+1724,ClassCastException is fast indexer,major
+1726,[disassembly] Warnings in disassembly viewer code.,minor
+1727,Template resolution problem affecting std::string,major
+1728,"AbstractIndexerTask uses NLS, means that StandaloneIndexerTask needs OSGi",blocker
+1729,[event] Invalid state used,minor
+1730,[Refactoring] Generate Getter Setters uses . instead of ->,major
+1731,[expressions] ExprMetaCommand toString() is incorrect,minor
+1732,[variables] Hanging variables view,major
+1733,TVT34:TCT360: HU: 14.000110 - BASE WINDOWS MENU - PREFERENCES - RUN/DEBUG - LAUNCHING/WINDOWS,minor
+1736,Triplicate entry in org.eclipse.cdt.internal.ui.refactoring.dialogs.messages.properties,minor
+1737,[debug view][stack] Stack frames are not always painted properly.,major
+1738,[concurrency] RequestMonitor.isSuccess() is inconsistent with getStatus().,major
+1740,[view model] VM cache can save the result of a canceled update.,major
+1741,[data model] Simplify the GDBControlDMContext.toString() string.,minor
+1742,[debug view][run control] Step buttons are still available when stepping over a sleep() call,minor
+1743,ClassCastException in indexer,major
+1744,TVT34:TCT553: CN: English strings on the Cheat Sheets panel.,minor
+1745,"[source lookup] Source lookup open ""<unknown>"" editor after after launching two multiple duplicate debug sessions.",major
+1746,Losing discovered build variables on restart,major
+1747,[registers] ClassCastException in RegisterVMProvider.,major
+1748,Cannot set address breakpoint in Dissassembly view,major
+1749,[Index] Clearing file can corrupt index database,major
+1750,project description concurrency issues with EFS hosted project,major
+1751,TVT34:TCT641: JA: English strings in Key preference,minor
+1752,TVT34:TCT666: PLK: Extra spaces in Keys Preference panel,trivial
+1753,[Accessibility] Duplicate mnemonics in C/C++ preferences,minor
+1754,[Accessibility] Add Watchpoint dialog - input boxes do not provide a label,minor
+1755,TVT34:TCT669: PLK: double space in Select tools dialog,trivial
+1756,TVT34:TCT668: PLK: New configuration name created by concatenation,major
+1757,"TVT34:TCT672: PLK: truncation in ""Explore Macro Expansion"" view",major
+1758,TVT34:TCT674: PLK: concatenation of messages in Refactoring window,minor
+1759,Content Assist slow to the point of unusable,major
+1760,"TVT34:TCT687: PLK: ""compiler version"" dropdown items not externalized",minor
+1762,"""using"" declaration doesn't work for base classes",major
+1765,TVT34: Moving through project properties makes file browser dialogs appear,major
+1766,TVT34:TCT741: TVT - HUN: Functional problem in CDT,minor
+1767,TVT34:TCT739: TVT - HUN: Truncation on Explore Macro Expansion panel,minor
+1768,TVT34:TCT733: TVT FR - Missing Unit for Set Line Width for preview window,trivial
+1769,[launch] CDT launches affected by DSF launches,critical
+1770,"TVT34:TCT751: Hardcoded ""auto"" in the list ""Specify processor architecture""",minor
+1771,TVT34:TCT745: TVT FR - 1 Steps should read 1 Step,minor
+1772,[launch] -environment-cd command should be used,minor
+1774,C Block comment closes on next line when # is a first character on line,minor
+1775,Make Targets Create/Modify dialog can be fooled easily,minor
+1776,Make Target view add/modify dialog is not resizable horizontally.,minor
+1777,Template type resolution problem affecting std::map::iterator,major
+1778,Breakpoint on binary symbols are not resolved,minor
+1779,[tests] org.eclipse.dd.tests.gdb/src/org/eclipse/dd/mi/service/command/commands/AllTests.java:29: illegal start of expression,minor
+1780,Workspace crash,blocker
+1781,[run control] CLIInfoThreadInfo does not parse result properly,minor
+1782,[variables] Hanging variables view (2),major
+1783,Copy paste of files in Navigator pane and then undo after editing deletes files with no confirmation,major
+1784,[tests] GDB services unit tests leak session thread.,minor
+1785,[debug view] InferiorStartedDMEvent not sent when no startup breakpoint,minor
+1786,[update policy] AutomaticUpdatePolicy.java: s/Autoamtic/Automatic,trivial
+1787,Errors in Variables TAB of Debug Windows,major
+1788,Error-Message is not parsed correctly,minor
+1789,[traces] GDBControl poorly formats an error printout,minor
+1791,[disassembly] DisassemblyDocument does not compile,major
+1792,stack overflow from infinite recursion indexing templated typedefs,major
+1793,No add @param to auto-generated Doxygen documentation if no params in method/function,minor
+1794,CDT Editor got blocked not available to respond to user action  for the indexing,critical
+1795,The console is a problem .The debugger is worse than that in eclipse-java-3.x.,major
+1797,Can't debug on Mac OS X Leopard,blocker
+1798,Website makes no mention of CDT 5.0,minor
+1799,CDT 4.0.2 indexer problem with Eclipse 3.4,major
+1800,[view model][debug view] Double click listener can be added twice for the same VM provider,minor
+1801,[commands] MI command better use of context information,minor
+1802,[Call Hierarchy] add proper support for templates,major
+1803,[view model] Missing calls to done(),minor
+1804,"Make options, enclosed by needed Double Quotes, are executed without the Double Quotes.",major
+1805,NullPointerException in Decoration Calculation,minor
+1806,[Formatter] White space isn't inserted before the first semicolon in 'for' statement,minor
+1807,[debug view] ExpandStack should be disabled when there is no launch,minor
+1808,Eclipse Ganymede hangs on startup,critical
+1809,[memory] memory search plugin is missing from memory feature,major
+1812,Formatter does not heed 'spaces for tab' setting,minor
+1813,new configurations badly or not saved,major
+1814,Relative include paths should be relative to source file,major
+1815,[commands] -thread-info should be used with new GDB,minor
+1816,[run control][processes] ClassCastException in GDBRunControl,major
+1817,"Unable to debug C++-Application, does not start",blocker
+1819,[update policy] VM Cache can save updates after they were canceled.,major
+1820,[Traditional Rendering] DebugEvent processing inflexible,major
+1821,AssertionFailedException in QuickDiff prevents save,major
+1822,[formatter] macros after controlflow statements without braces: new line missing,minor
+1823,Include path is not listed in project if user defined environment variable is used,major
+1824,"compile errors when file in filesystem (not project directory) includes ""name.h"" and <name.h>",major
+1826,[non-stop][update modes] Caching may not be possible in non-stop mode,major
+1827,Content-Assist  does not work for unsaved files,critical
+1828,Crash of eclipse CDT when opening a file / selecting inside a file,blocker
+1830,Deadlock between CReconciler and main on startup,major
+1832,[update policy] Bug in Update Scopes implementation leads to views to stop refreshing.,major
+1833,show full paths is always checked on breakpoints view,minor
+1834,[breakpoints] Selecting the breakpoint filter option hangs eclipse,major
+1835,Task tags with non-alpha characters not highlighted,minor
+1836,Build project (on C++ project) occasionally does not work,major
+1838,GeneratePDOM application does not output the target .pdom file if the include path contains assembly files,major
+1841,[disassembly] IP annotation does not keep up when stepping fast,major
+1842,ErrorParserManager NPEs on EFS project,major
+1843,Variable view shows nothing when expanding  child element of structure object,major
+1844,Details pane in Expressions view displays wrong data for big arrays,major
+1846,Parser fails to get AST when eclipse lauched with vmarg -ea,critical
+1847,[launch][non-stop] Non-stop option should be below .gdbinit warning,minor
+1848,[commands] Token should not be printed if invalid,minor
+1849,"GUI hangs, deadlock in worker threads from org.eclipse.cdt.debug.core/org.eclipse.cdt.debug.mi.core",major
+1850,Welcome Page on Solaris: Missing Icon,minor
+1851,No variables shown in Variables view while debugging,major
+1852,Problem with build of C++ project using CDT in MakeFile Project.,blocker
+1853,[expressions] RM.done() called twice in MIVariableManager,major
+1854,the eclipse-cpp IDE:the input/output order is incorrect in the Console.,critical
+1855,[view model] Debugger VM providers' listeners are never removed from the preference store.,minor
+1856,missing space in Command line pattern,trivial
+1859,[number format detail] IllegalMonitorStateException in the number format detail pane,major
+1860,[console] CLI console should accept MI commands,minor
+1862,[launch] Debug view is not activated upon launch,minor
+1863,[console]  console doesn't work with getch() in conIO,minor
+1864,CDT 5 file-based distros are missing components,major
+1866,[launch] Failed finalLaunchSequence leaves zombie launch entry in Debug View,major
+1867,When I edit a Macro used in the code with several brackets I block eclipse,major
+1868,"When creating new C/C++ Project: Problems occurred when invoking code from plug-in: ""org.eclipse.jface""",major
+1870,[update policy] Refresh All action is not always properly enabled.,minor
+1871,mark occurrences and refactor/rename misses occurrences,major
+1872,[update policy] Refresh button in views is enabled in any debugger while focus is in Editor.,minor
+1873,C++ Indexer hangs on medium sized project,major
+1874,Regression: problems with C/C++ editor ruffling my whitespace,major
+1875,CDT runs but doesn't debug files with accents on their path,major
+1878,[editor] Highlight inactive code if #ifdef is unterminated,minor
+1881,StackOverflowError with Restore Defaults in property pages when two strings are present,minor
+1883,GNU Code formatter formats braces wrong,minor
+1888,"""Add include"" adds ""using namespace"" also if ""Add include"" is called from within the namespace",minor
+1890,[number format detail] IllegalMonitorStateException seen occasionally,major
+1891,[Scanner Discovery] file-level discovery option not saved,trivial
+1893,No path for makefile in problems view,major
+1894,Unable to import existing C++ project,major
+1897,"Internal Error during ""Decoration Calculation""",critical
+1898,Wrong formatting of C++ class when using value of function pointer,major
+1901,AbstractIndexerTask.runTask() breaks standalone indexer,blocker
+1902,OutOfMemoryError while indexing file with embedded images.,major
+1903,Out of memory while computing Macro Expansion,major
+1905,Error parsers can no longer find filenames for EFS resources,major
+1906,Debugging C/C++ apps cause eclipse to think GDB Terminated,major
+1907,[formatter] Add ability to format initialization lists of constructors,minor
+1908,Freeze Creating New Project,major
+1909,[menu] Typo in RetargetDebugContextAction.getAdapter(),minor
+1910,NL characters are not displayed properly,minor
+1912,Update to CDT GNU Build breaks existing makefile/pre-build step - suspect backticks,major
+1915,[console][cdi] Visible console should match debug selection,major
+1916,"XP 64 bit, Eclipse crashes when a change in file is saved.",critical
+1917,project templates don't work in filterPattern attribute is not specified,major
+1918,What is the EOF equivalent to be recognized inside Eclipse Console?,critical
+1919,CommonBuilder#build API became uncallable from clients,major
+1921,QT EClipse Integration Fails Fedora 10.0 i386,major
+1922,Disorder of steps in the help contents,minor
+1923,include heuristics break standalone indexing,blocker
+1924,Dependencies on internal constants cause the CDT build to fail against 3.5M6 platform.,blocker
+1925,[registers] Register service makes innefficient use of expression service,minor
+1926,[disassembly] Service tracker and service used on wrong thread,major
+1927,Makefile dependencies are wrong if subfolders are added to a project and existing project sources are moved to that folder,minor
+1928,deadlock in SCMarkerGenerator.addMarker() when opening a project,critical
+1929,Unrecognised C++ Header files by Eclipse,blocker
+1930,[commands] Erroneous javadoc for DsfCommandRunnable#doExecute(),minor
+1931,[view model] LaunchRootVMNode misses a done(),minor
+1932,[Project Explorer] Sorting is broken with Eclipse 3.5 M6,major
+1934,"wrong editor coloring when "" is involved",trivial
+1935,"two ""Debugger"" tabs in Debug configurations..",trivial
+1936,Eclipse crashes on creation of a new C++ project,critical
+1938,Eclipse crashes when trying to expand some folders in project explorer,major
+1940,[CodeFormatter] DBCS3.5: New Class wizard truncates first DBCS character in class name and namespace,major
+1941,"Tur3.5 and DBCS3.5  : NL workspace path is not interpreted correctly, hense,  debug function is unable to locate the main.cpp file.",major
+1942,reference to CCorePlugin.log(Throwable) in AbstractIndexerTask.runTask() breaks standalone indexing,blocker
+1943,changes to ICommandLauncher,blocker
+1944,BIDI3.5:First character truncated in Arabic Text in Namespace and Class Names,major
+1946,debug with c++ cdt crashes with io exception randomly,blocker
+1947,Indexer causes Stack Overflow with large projects.,critical
+1948,Return type stored in the ICElement- IFunctionDeclaration contains method qualifiers as well,major
+1949,[remotecdt][releng] Source bundle is missing for org.eclipse.cdt.launch.remote,minor
+1950,[remotecdt][releng] remotecdt is not mentioned on download page,minor
+1954,misarranged UI in Properties Settings page,trivial
+1955,Internal builder claims nothing needs to be built,blocker
+1956,Tool option orders in Property Pages differ from spec. in plugin.xml,minor
+1957,eclipse crash vnc,critical
+1959,multiple definition of main() problem,critical
+1961,Indexer crashes with Boost::spirit program,blocker
+1962,GDB connection times out when switching to process,major
+1963,Open Element is hardly usable (CCE in composite index),major
+1965,Watchpoints broken in 6.0,major
+1967,Text Colors wrong in Makefile,minor
+1968,[pda] Suspending a thread suspends the VM instead.,minor
+1969,"Method search doesn't work in pop-up outline view (CTRL+O) when ""Group method definitions"" enabled",minor
+1970,Eclipse crashes when creating a C++ project,critical
+1971,[cache] Caching of mi errors must have a way to be cleared when the error condition is no longer valid,major
+1972,[Regression] Content assist no longer shows details,major
+1977,Need to export the Traditional Rendering package,blocker
+1978,Memory view enhancements don't install from Galileo update site.,major
+1979,Hover does not display information about stl class member.,major
+1980,unable to acquire write lock in indexer,major
+1982,"CDT 6 broken on OSX 10.4 Tiger: (Cannot run program ""make"": Unknown reason)",blocker
+1983,[launch][regression] DSF launcher configurations mess up run mode launching,major
+1984,indexer performance problem,major
+1985,PDOM lock tracing breaks standalone indexing,blocker
+1986,Includes don't get updated for different configurations,major
+1987,Option Insert spaces for tabs does not work,minor
+1988,CDT confused by sources with same names in project with complex catalog structure,minor
+1991,Linker 'Other Objects' does not work with files indicated by workspace reference,major
+1992,Adding a make target needs too much time,minor
+1993,Traditional Rendering are not disposed after Memory Browser is closed or Debug Session is terminated.,major
+1994,"CDT don't suggest some class members in autocomplete list, if members declared below point where autocompletion executed",minor
+1996,Debug failed for simplest C code in the Eclipse CDT,major
+1997,Problem with fast indexing on a very big projects,major
+1999,Exception thrown on invoking a getClassOwner()method on a ICPPMethod binding object,major
+2000,"File readonly notification for makefiles, .project and .cproject files",major
+2001,"""Add Include"" when needing a using xxx::class places it inside comments",minor
+2003,Paths and Symbols inheritance problem,major
+2004,"Environment Variable with value "":""  gets replaced by empty string """"",major
+2005,Errors found in Java Properties Files,trivial
+2006,Errors found in Java Properties Files,trivial
+2007,Indexer hangs at 0% and stops responding after inserting an unnamed namespace in any .cc file,blocker
+2009,DocCommentOwnerManager doesn't use the DefaultScope for settings,minor
+2010,inconsistent error appearance in Add Exclusion Pattern dialog,minor
+2011,"Remote debuggin with CDT cause ""Killing inferior""",major
+2012,[Memory Browser]cannot create new memory tab,blocker
+2013,Need to export the MemoryBrowser package,critical
+2015,"An internal error occurred during: ""Update Monitor""",critical
+2016,Newline characters in GDB output not processed,major
+2017,Debugger doesn't handle multiple anonymous unions properly,major
+2018,TVT35:TCT615: SVE: English element type strings,minor
+2019,TVT35:TCT646: JPN: missing mnemonic key on Make Targets context menu,minor
+2021,Memory Browser never disposes memory blocks,major
+2023,PathUtil.equal should be static,minor
+2025,CDT with gdb: Attach to process list does not list all processes in Mac OSX 10.5,major
+2026,Index fails with nontype template template parameters.,major
+2027,"[concurrency] Unnecessary @SuppressWarnings(""unchecked"") in DSF code",minor
+2028,"Other Objects translate to ""..\..\"" in build command",blocker
+2029,"[Template Engine] Mappings between labels and values in not reversible for <property> with id=""functional_area""",minor
+2030,Search doesn't search,major
+2031,Not easy to set gdb process environment,trivial
+2032,[Regression] Fix for 287927 delays debug session start on Linux platform,major
+2033,Could not see children of a remote directory when it contains a pipe file,major
+2034,Outline View PopupMenu Item Addition,minor
+2035,Tool Settings File field editor incorrectly draws focus.,minor
+2036,"Indexer does not work for types within extern ""C"" { ... }",major
+2038,Two source files in assembler project cause to fail stop at breakpoint in debug,major
+2039,java.lang.ArrayIndexOutOfBoundsException thrown on rename of a class,major
+2040,[services][breakpoints] IBreakpointDMData interface should extend IDMData,minor
+2041,[formatter] More heuristics for if-else in macros,major
+2043,Tab width setting ignored,major
+2044,[vm] AbstractVMProvider.handleEvent() should honor request monitor's cancel request.,minor
+2045,[concurrency] Memory leak in RequestMonitor,major
+2048,[debug view][vm] Redundant updates on FullStackRefreshEvent,minor
+2049,DiscoveryTab.java isn't properly protected against internal array being null,major
+2051,Index out of bounds exception- if try to add DiscoveryOptionsBlock tab-cdt 6.0.1,major
+2052,Unable to modify code template or create a new C++ source file,blocker
+2053,Not able to use built in functions of graphics and winsock in Eclipse IDE using MinGW gcc toolchain,major
+2054,"GoToAddressBarWidget does not handle ""ENTER"" key",minor
+2055,Launch Group tab not updating properly after hitting Revert,minor
+2056,[services] Executor in DsfSession class should be final,minor
+2057,MIProcessAdapter doesn't destroy process even if launch timed out,minor
+2058,Externalize strings in CDT memory plugins,minor
+2059,CDt 6.0.1 prevents me from viewing/debugging through Eclipse/CDT source,major
+2060,[dis] DSF Disassembly: Reduce maximum width of FunctionOffset Ruler Column,minor
+2061,Completion takes much too long until it aborts,major
+2063,[Index] infinite recursion adding function template with exceptions to index,major
+2064,"NPE: Plug-in ""org.eclipse.cdt.ui"" was unable to instantiate class ""org.eclipse.cdt.internal.ui.text.spelling.SpellingEngineDispatcher""",minor
+2065,[breakpoints] ToggleBreakpointAdapter blocks UI thread waiting on the index,major
+2066,stackoverflow while indexing projekt,critical
+2070,[Mac] Toggle Source/Header has invalid key binding,minor
+2071,Changes in header files do not trigger project changes required for build,major
+2072,Managed builder clean command echoes failure even when falling back to programmatic clean,minor
+2073,"Launch configuration ""Build configuration"" combobox state is not preserved",major
+2075,deadlock in CfgDiscoveredPathManager.getDiscoveredInfo(),blocker
+2076,C/C++ Search does not accept syntax to search for operators.,major
+2077,I cannot debug anymore. was ok before,major
+2078,"Click ctrl+1, double-click on ""No suggestions available"" -> deletes part of the file",minor
+2079,unable to make work cdt in linux 9.10,major
+2080,CDI Exception in VariableManager.udpate prevents all other updates,major
+2081,[expr] 'Add new expression' can end up in the middle of Expression list,minor
+2082,Headers not found,major
+2084,[disassembly] Unable to step over code when DSF disassembly view is open,critical
+2085,[Memory Browser] Allow users to define Memory Browser's default rendering at the system level,major
+2086,cpp parser forget about default values after saving .cpp file,major
+2087,Source navigation (and semantic colouring) cannot choose between class and namespace.,major
+2088,[expressions] Cannot modify expression value in Expressions view,major
+2089,Bug in console for standard in/out,major
+2090,DOM AST Not loading,major
+2091,[Memory Browser] refactoring request,major
+2093,Formatter causes wrong layout for #defines for classes with inheritance,minor
+2095,Mac key bindings for refactoring are invalid,minor
+2096,[can't reproduce] StackOverflow (recursion in template args of instance?),major
+2097,Wrong brace matching,major
+2098,Confusing comment in ICDIDebugger2,trivial
+2099,Potential NPE in C++ Search when CodeReader cannot be obtained for a IFL,minor
+2100,Failed to index boost::bind function call.,major
+2101,"Cannot run program ""g++"". We can`t compile the C++ project.",major
+2102,Wrong representation of using declarations targeting more than 2 declarations,major
+2104,semantic highlighting of functions with default argument,minor
+2105,[Debug Views] Refresh button doesn't work in M5,major
+2106,[Expression View] Cannot modify expression values in Expressions view,major
+2107,Strange behavior of source hover on macro definitions.,minor
+2108,CountingRequestMonitor status is broken,major
+2109,[Disassembly] Disassembly view doesn't take into account active debug context when jumping to an address,major
+2110,Content Assist window does not appear when function parameters are not in same line.,major
+2111,[breakpoint] Goto marker is broken,major
+2112,[disassembly view] Infinite loop retrieving disassembly,major
+2113,When adding project to Debug Configurations-,major
+2114,Content assist doesn't work for inline function members.,major
+2115,[commands] -thread-select and -stack-select-frame should not use --thread and --frame,minor
+2116,Breakpoint set after program launch is ignored,major
+2117,Run to line action takes more than 10 seconds,major
+2118,MACROS after the last function in a c file are not available in IASTTranslationUnit.getMacroExpansions(),major
+2119,Live debug session is messed up after terminating snapshot launch session,major
+2120,[dis] Improve javadoc for disassembly service,minor
+2121,JUnit failure in managedbuilder test40_pathconverter happens occasionally,minor
+2124,[debug view] Missing process when not stopping on main with GDB 7.0,major
+2125,7.0.0 snapshots require 3.6 not 3.5,trivial
+2126,[breakpoints] Breakpoint VM input equals method doesn't take into account for debug context,major
+2128,Variable view fails to show details for base class member (next),major
+2130,[services] Some services do not dispose of their service tracker,minor
+2131,[variables][cdi] Expression service returns wrong number of children for complex structures,major
+2132,Can't Open New Project,blocker
+2133,"""Add include"" does not work if cpp file has references to needed include.",major
+2134,"""Add include"" use """" instead <> for common includes.",minor
+2135,Managed build model is not thread safe,major
+2136,"[src] No source available for ""main()""",major
+2137,[bp] Breakpoints view not updating if launched from C/C++ perspective but updates if launched from debug perspective,major
+2138,Possible NPE in CSourceFinder,minor
+2139,"[breakpoints] Breakpoints view ""Breakpoint Properties..."" action is missing.",critical
+2140,Indexing freezes when parsing code with templates.,major
+2141,NullPointerException in MachO-64 parser,major
+2142,CPPASTVisitor does not visit ASTNames contained in IASTPreprocessorStatements,minor
+2143,[Memory Browser]NPE in Go To Address when devices do not support address space,blocker
+2144,[DBCS3.6]: TCH: RHEL5 - Error creating session problem occurred when executed Debug,major
+2145,[spelling] Unable to add user dictionary,major
+2146,CStorageDocumentProvider should provide annotation model,major
+2147,Code completion does not work,major
+2148,C++ Indexer not getting updated on programmatic additions  to a C++ file,major
+2149,[Internal builder] multiple files including the same header are not all rebuilt when the header is modified,major
+2150,New Class wizard doesn't check for C++ keywords during validation,minor
+2151,[Accessibility] Error Parser Options is not accessible by keyboard,major
+2153,[gnu-extension] no support for '_Pragma' in C++,major
+2154,Register values are not updated when switching between frames,major
+2155,"[TUR3.6]: C++ project cannot detect ""/usr/include/c++/4.0.0"" library.",major
+2156,Multi-thread debugging in regular stop-mode with gdb 6.8 is not working,major
+2157,Debug session hangs while expecting user input,major
+2158,DSF launch won't work with GDB 7.1+,major
+2159,IManagedCommandLineGenerator lacks context,major
+2160,[mem][cdi] Need APIs to support memory pages (or memory spaces),critical
+2162,Highlighting of member variables using this,minor
+2163,Extract Method throws ClassCastException exception,major
+2164,No registers with HEAD,major
+2166,[debug view] Debug view sometimes hangs after terminating a launch,major
+2168,Doxygen support generates @return for constructors and destructors,minor
+2169,core.resources can deadlock the CDT project model,critical
+2170,Out of memory in c++ parser,critical
+2171,[vm] Refactor VMViewerUpdate to avoid data duplication.,minor
+2172,Missing unique CDT context Help IDs on various pref panels,major
+2173,Indentation is wrong for const method,minor
+2174,org.eclipse.cdt.scripting prints to stderr,minor
+2176,NPE in DiscoveredPathInfo,major
+2177,[event] Double-click event is swallowed by AbstractLaunchVMProvider,minor
+2178,"Internal error occurs during: ""Label Job"" and ""has children update""  - Null Pointer Exception",major
+2179,Error dialogue box translation errors,minor
+2180,[cache] Inefficiency in CommandCache,minor
+2181,external settings are changed & lost after project set import replaces existing project,major
+2183,[vm][cache] Stack frames missing in debug view,major
+2184,TVT36:TCT139: CHS: Mnemonic Keys Aren't Needed for Flyover,minor
+2185,"Problem with concenating file-field in ""Test Plugin RegexErrorParser""",minor
+2186,"Indexer can't index the following code:) sign, Eclipse is crashed! because of stack overflow",critical
+2187,TVT36:TCT170: ITA: It & En panels doens't matching,minor
+2189,TVT36:TCT178: PTG: Tools is in English,trivial
+2190,Infinite loop in Implement Method command,major
+2191,Infinite loop in TemplateArgumentDeduction.fromType,critical
+2192,"open declaration on #undef name in file ""ctime"" causes null-pointer-exception",minor
+2193,Gdb 7.1 does not take the environment correctly,major
+2195,"CDT Quick Outline: After typing C++ method name, first matching method should already be highlighted",minor
+2196,[vm] AbstractThreadVMNode may miss to complete an update,major
+2197,extract variable refactoring does not infer type  or replace expression correctly,major
+2198,add API to allow translation units to provide the path that FileContent uses,blocker
+2200,Open eclipse often appear NTVDM CPU has encountered an illegal instruction problem,major
+2201,[performance] Rename refactoring is very slow on large projects,major
+2202,rename refactoring does not work on va_list local variables,major
+2203,[vm][cache] Model errors should be propagated to viewer.,major
+2204,Search and C/C++ search window should allow whole word feature,minor
+2205,Confusing debugger capabilities,major
+2207,Scanner discovery not working,critical
+2208,Disassembly truncates 64bit instruction addresses,major
+2209,No icon for XL UPC project,minor
+2210,[tests] Eliminate the 1s wait at start of each DSF-GDB test.,minor
+2211,[console] Cannot have both stdout in console and in file,major
+2212,Build console is too slow when build output contains >10000 warnings from a single file.,major
+2214,Recursive folder will be created when importing the C project when workspace is the project folder,critical
+2217,The Memory Browser Find/Replace logic prefetchs data outside the specified memory range,major
+2218,xlc scanner discovery scheduling rule issue,major
+2219,org.eclipse.cdt.core.lrparser.feature not found,major
+2220,Unknown tool option silently breaks all other options => gives broken build,major
+2221,I'm having problems compiling and running eclipse projects,critical
+2222,EDC launch imported executable causes divide by zero exception,major
+2223,Executables view's source label provider very slow with networked access,major
+2224,[launch] Invalid thread access exception during launch,major
+2225,Invalid Codan error for return statement,major
+2226,fix unmerged xlc/xlupc toolchains,major
+2228,Eclipse+Windows+C/CPP+OpenCV+MINGW+GCC compiler problem cannot find -lC:\OpenCV2.0\include\opencv,minor
+2229,"[Scanner Discovery] PATH environment variable oddities (Discovery Sanner, Launching)",major
+2231,Wrong text in exception of MapProblemPreference,minor
+2232,Indent line fails when function returns pointer (ctrl+i),minor
+2233,Enhancement request in org.eclipse.cdt.codan.core.param.FileScopeProblemPreference,minor
+2234,Incorrect handling of namespaces in debugger,critical
+2235,Adding a define at the top-level doesn't correctly rebuild sources where compiler tool has other overriden options,major
+2236,Invoking CDT Builder takes over 1 minute for managed project,major
+2240,"Weird name for methods when using generates getter and setters on variable ""ID""",minor
+2241,header completion via Ctrl-Space stopped working in final Helios release,major
+2242,"AbstractIndexerTask.extractFiles(...) uses PossibleTranslationUnit concrete class, breaks standalone indexing",blocker
+2244,"""Window->Preferences->C/C++->Editor->Save Actions"" are not working",minor
+2245,Thread safety issue reading .cproject  XML,major
+2246,Missing type arguments compilation warnings,trivial
+2248,case sensitive environments convert to uppercase,major
+2249,Unnecessary semicolons in managedbuilder.core,trivial
+2250,Missing/unnecessary $NON-NLS$ tags,trivial
+2251,Invalid Javadoc tags,trivial
+2252,Unnecessary type casts,trivial
+2253,Missing @Override annotations,trivial
+2254,Unnecessary imports,trivial
+2255,eclipse disappeared while index->update with modified file,critical
+2256,"Can't debug program, gdb don't run, failed to execute MI command -exec-run",major
+2257,The type Assert is deprecated,trivial
+2258,Deprecated methods missing @Deprecated annotation,trivial
+2260,Javadoc unexpected tags,trivial
+2261,Project's names go in conflict while debugging if exist a project's name equal to the root folder of source code under debug,minor
+2262,Indexer runs forever,critical
+2263,CDT Index grows without bound,major
+2264,Eclipse Helios with CDT crashes when expanding project,critical
+2265,Getting Library search paths from Tool's Option,major
+2266,Cleanup changes made for version 3.1 now that we are going to 4.0,minor
+2267,"""NLS unused messages"" warnings running headless build",minor
+2268,"[Help Wanted] Disable ""Copy Build Log"" button of build console when there is no build log",minor
+2269,"Error in dependencies, can't install CDT",major
+2271,Lost preference: build only if changes in workspace,major
+2272,string xx=0; compile without errors and later crash debugger,critical
+2273,"[update policy] When in manual mode, switching number format should still show value in other formats if value is cached.",minor
+2275,"An internal error occurred during: ""FetchJob"".",critical
+2276,Cleanup warnings for CDT EDC org.eclipse.cdt.debug.edc.windows.agent,trivial
+2277,Error parsing map<...>::iterator as a type in the context of a template,major
+2278,"Move ""Editor problem annotation"" preference",minor
+2279,add agent capability to request dialog on tcf server,minor
+2280,"[Scanner Discovery] Source files with drive-relative paths (""/foo/bar.c"") are not discovered",major
+2283,[Scanner Discovery] Regression: Current Directory is never discovered in CDT 6.0.2,major
+2284,"""Generate Getters and Setters..."" crashes",major
+2285,ctrl+tab does not consider namespace,major
+2286,Formatting issue with #define,major
+2287,CDT editor hangs up when you execute auto completion,critical
+2288,edc - disassembly - ARM - avoid NPE in RangeAndMode#toString(),trivial
+2289,test,minor
+2290,c:/mingw/bin/../lib/gcc/mingw32/4.5.0/../../../../mingw32/bin/ld.exe: cannot open output file switch.exe: Permission denied,major
+2291,"""Updating project..."" takes forever for big projects",major
+2292,Dsf attach session requires project,major
+2293,Installing GDB Hardware Debugging feature downgrades CDT to 7.0.0,major
+2294,build refers to wrong workspace,major
+2296,Link with Editor icon in projects view should be the same as used in Project Explorer and Console,trivial
+2297,Ctrl+Click navigation is broken,major
+2298,Path mapping editor converts normal slashes to backslashes,major
+2299,Typing 'Enter' in a multi-line comment might copy too much from the previous line,minor
+2300,Correct Indentation after ternary expr ( <stmt> ? <stmt> : <stmt;) incorrect,minor
+2301,ExternalSettingsProvider does not update existing macros,major
+2302,"edc - details pane does not display strings greater than 256 regardless of ""Max Length…"" setting",major
+2303,"edc - ""Max Length…"" context menu item does not appear once EDC is started",major
+2304,"endless errors: ""Notifying selection listeners"", StackOverflowError in CPPTemplates parsing",major
+2305,*.c and *.C - (not capitalized and capitalized) - get different indexer parser log file,major
+2306,How to run Eclipse c++ ide on ubuntu?,critical
+2307,Formatter corrupts code,major
+2308,"Indexer doesn't recognize ""near"" function",major
+2309,[crossgcc]Crossgcc plugin fails to build a project,major
+2310,"dereferencing iterator results in ""field could not be resolved"" error",minor
+2311,Sorting of follow-up errors from gcc in Problems tab,minor
+2312,AIX spawner should kill all child processes,major
+2316,Standard Make Project Build locks project,major
+2318,"Unnecessary calls to getProjectDescription(IProject, true) are very expensive",major
+2321,Folder-Specific properties are not applied,trivial
+2322,Problems with CDT install,blocker
+2323,c++0x mode autodetection.,minor
+2324,Codan does not resolve field correctly,major
+2326,Description Scanner Info doesn't release ICProjectDescription,major
+2327,Hyperlinks don't work inside macros (regression),major
+2328,No space before parenthesis!,trivial
+2329,Import/Export Settings Wizard for C/C++ not working correctly for workspace paths,minor
+2331,Eclipse GDB Hardware Debugging: 'hook-continue' ignored,major
+2332,Oracle Java 6 update 23 crashes when running Eclipse CDT (64-bit version of CDT & JRE) [see comment 7 for workaround],critical
+2333,Eclipse with CDT plugin crashes on starting up,critical
+2334,the stock hello_world project fails to find gcc,major
+2335,checkbox cleared when changing tab in remote application debug configuration,minor
+2336,WindowsRegistry#getRegistry() returns null under Win7 64bit,major
+2337,[disassembly][api] provisional package should be marked internal in the manifest,minor
+2338,[MS Toolchain] Error in compiler command,major
+2339,Tooltip on reverse step commands misses a space,trivial
+2340,Deadlock reported during startup of cdt.debug.ui,major
+2341,CDT headlessbuilder can't handle the dependent projects correctly,major
+2342,Missing message in Implement method,minor
+2343,return 0 to console causes OS to crash,critical
+2344,Crash on startup in non-empty working directory OpenSuse 11.3,critical
+2346,SIGSEGV when editing C code,critical
+2347,crashed the first time i launched it,critical
+2348,Debugging is not happening properly,blocker
+2349,C++ semantic error highlighting (e.g. undeclared variable) doesnt work in CDT,major
+2351,[Memory Browser] Need to set NULL selection when the tab for the actve rendering is closed,major
+2354,Refactor DisassemblyToggleBreakpointsTarget and DisassemblyToggleTracepointsTarget,minor
+2355,Remove image /org.eclipse.cdt.doc.user/images/pref_traditional_memory prefs.png,minor
+2357,Add FullIndexer again,major
+2359,Source bundles are missing for Traditional Memory Rendering and p2,major
+2360,[Memory Browser] Persist the Go To Address history in the launch configuration,major
+2361,[multi-process] Invalid assert when fetching process information,minor
+2362,Eclipse crashes while trying to index an imported project,critical
+2363,No Hyperlinks on overloaded operators until AST becomes available,minor
+2364,Eclipse crashes while editing C-Headers,critical
+2365,Eclipse crashes due to seg. fault in JVM while indexing project,critical
+2366,C/C++ IDE automatically shutsdown,major
+2367,Indexer and refactoring crash leaving no log,critical
+2368,"""Launch failed. Binaries not found"" on Photran",major
+2369,Eclipse with CDT crashed,critical
+2370,Eclipse CDT crashes every 3-15 mins,critical
+2372,Editor position of 'error' keeps focus in 'Project Explorer',minor
+2373,The JVM crashes (return code=1) usually after the indexer is ran,critical
+2374,Doesn't link functions in a namespace but does link to function decalered as class' static,major
+2375,Eclipse  crashing on C++/C Indexer,critical
+2376,Project-specific configuration-relations setting is never persisted anywhere,major
+2377,Project metadata files are saved unnecessarily,major
+2378,JVM crash after creating example C++ project,major
+2383,[services] Race condition when initializing DSF services,major
+2384,"Launching debug configuration shows ""there are build errors"" window incorrectly",minor
+2386,Crash of a fresh downloaded eclipse CDT just after opening the workbench,critical
+2387,eclipse crash when indexing on ubuntu,critical
+2388,"Problematic frame: # V  [libjvm.so+0x691afb] - Ubuntu 10.10 x86_64, JVM crash using C/C++ IDE",critical
+2389,"Ubuntu 10.10 x86_64, JVM crash using C/C++ IDE",critical
+2390,THViewPart leaks Clipboard instance,major
+2391,Crash in org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDeclarator.postAccept,critical
+2392,Index not updated when complete folder deleted,major
+2393,Shared ast is exposed for concurrent usage,major
+2394,"Standard error output (stderr, cerr) doesn't output anything",major
+2395,Remove unused dependency to org.eclipse.jface,minor
+2397,Eclipse CDT hangs when bringing up autocompletion list,blocker
+2398,Executable View should create virtual folders when importing executables,minor
+2399,Referenced projects are unnecessarily built multiple times,major
+2400,"while building project cannot modify its files (save actions, change its properties)",major
+2401,Eclipse CDT crashes when importing existing C-code,major
+2402,Codan checkers run even when disabled,major
+2404,macros definition depnds on file order in indexing operation.,major
+2405,Cannot install breakpoint in dynamic loaded library,major
+2406,CDT is crashing on the indexing of a project at startup,major
+2407,CDT is crashing on the indexing of a project at startup,major
+2408,CDT is crashing on the indexing of a project at startup,major
+2409,"error of ""Open declaration"" : find declaration of function goes wrong",major
+2410,Member function call of array type variable yields ProblemBinding,minor
+2411,"sin(a), sqrt(a) translation error",major
+2412,Copy constructor not resolved as implicit name,minor
+2414,GDB (DSF) Hardware Debugging Launcher fails to complete launch,major
+2415,"Wrong warning ""No return, in function returning non-void""",minor
+2416,Permission denied to c/cygwin/bin/gcc,major
+2417,Ever growing resource tree with cyclic symbolic links,major
+2418,Deadlock between BinaryRunner and project model serializing lock,major
+2421,IASTPreprocessorStatement contained in inactive code block claims to be active,minor
+2422,"After running C/C++ indexer, cannot find references for a function",major
+2423,Codan doesn't understand typedefed structure,major
+2424,NullPointerException in creation of new class,major
+2425,Always crashes on load,critical
+2426,"Debugger UI not conform with debugger status, unusable",major
+2427,Changing C/C++ project toolchain away from Cross GCC loses Cross GCC option settings.,minor
+2428,Eclipse can't index an Android project.,blocker
+2432,"getter/setter ""name style"" should ignore filed prefix",minor
+2433,Make MAX_DELAY of editor content assist computation configurable,major
+2435,Delete expression lacks implicit name with binding to operator delete,minor
+2436,Galileo CDT download incomplete - missing files,major
+2437,cdt editor hangs when trying to autocomplete,critical
+2439,Generate Getters and Setters can generate code containing reserved keywords,minor
+2440,False error message: Symbol 'CLOCKS_PER_SEC' could not be resolved,minor
+2441,"CDT8 cannot parse __is_pod, __is_empty declaration in namespace std.",major
+2442,fprintf is not resolved,major
+2443,object member completion causes eclipse to crash,critical
+2444,While linking folder in source location JVM crashed,critical
+2445,Crashes randomly while editing C/C++ files.,critical
+2446,Formatting bug with using macro for namespace,major
+2447,[C] No content assist for names of designated initializers,major
+2448,compile error due to unused import in RegisterManager,blocker
+2450,Misc minor fixes to EDC,minor
+2452,In DwarfCompileUnit#getChildren() ensure that the compile unit is parsed before returning results,minor
+2453,Built-in includes seem to be broken for Cross GCC,blocker
+2455,C/C++ GCC Cross Compiler support for static libraries broken,major
+2456,C/C++ GCC Cross Compiler support for dynamic libraries is broken,major
+2457,EDC tests timeout when files are missing rather than failing when lack of file detected,minor
+2458,CCE in composite index,major
+2459,parser displays class's template base class member with an syntax error.,major
+2462,"""invalid thread access"" dialog when attempting to search C/C++ project for references",major
+2463,typedef enum removed from index after changes in header file,major
+2464,GDB MI parser in CDT/CDI is broken on Windows,major
+2465,"In new class window, ""add"" in base classes section caused eclipse freeze for about ~1 minute",major
+2466,You cannot enter an expression in the memory Browser expression area if a continuous breakpoint is runing,major
+2467,Eclipse cannot understand unistd.h and getopt.h together when importing a project,major
+2468,TVT/DVT3.7:TCT95: GSSC: Synchronization test,trivial
+2469,Compiler symbols do not make the right active/inactive code,major
+2471,"TVT/DVT3.7:TCT100: FRA - Apostrophes not displayed in ""Code analysis"" panel of project preferences",critical
+2472,"Invalid closing brace position with ""for"" loop",major
+2474,Bugs are shown in editor even if there are none,major
+2475,boost library not usable with CDT 8.0 and codan (indexer problem ?),major
+2476,Synchronization in Spawner.waitFor() and Spawner.destroy() is problematic,major
+2477,new C/C++ project action caused JVM crash,major
+2478,"Eclipse getting slower and slower, UI freeze for some seconds and then resume",critical
+2479,"Clicking 'OK' in Project Properties Dialog results in ""Out of Bounds"" Error",major
+2480,[Index] Implicit default constructor returned as constructor after defining an explicit constructor.,minor
+2481,AM_SILENT_RULES fouls scanner discovery,minor
+2482,Eclipse crashes when opened w/ error log reporting EXCEPTION_ACCESS_VIOLATION,critical
+2483,c parser crashes eclipse platform when indexing (possibly) malformed code,critical
+2484,"Input redirection fails in Run (Arguments not handled correctly, Debug works fine)",major
+2485,Writing C files crashes eclipse on Win XP x64 with x86_64 Indigo SR1 and CDT.,critical
+2486,"GDB Hardware Debugging options ""Reset and Delay"" and ""Halt"" in Startup tab have no effect on remote target",minor
+2487,Unabel to resolve enums in C++ files when placed in header file.,major
+2488,java.lang.StackOverflowError when opening C++ project,critical
+2489,The float-versions of the math-functions are not indexed.,major
+2490,Automatically generated explicit constructor has the explicit keyword in constructor definition,minor
+2491,"Beachball (i.e., hang) on OS X Lion",critical
+2493,Indexer crashes during build of LLVM + Clang,critical
+2494,Login Error,critical
+2495,"Eclipse hangs when adding an ""output location"" filter",critical
+2496,Edit toolbar missing,minor
+2497,CTypedef and CStructure doesn't implement the toString method,minor
+2498,Problem in connecting java with C/C++ using JNI,major
+2499,C++11 standard headers missing from file types,major
+2500,eclipse showing INTERNAL ERROR by the problem JAVA.LANG.StringIndexOutOfBoundException,critical
+2502,unable to resolve int64_t overload,major
+2503,[Implement Method] Refactoring wizard opens even if there are no method to implement,minor
+2504,IndexerPreferenceListener leaks CEditor instance,major
+2505,Generate Getters and Setters leaks memory,major
+2506,Rename refactoring without dialog leaks memory,major
+2507,debugging - java.lang.NoClassDefFoundError: on GdbLaunch for PyDev and CDT projects,major
+2508,Preferences page uses wrong icons,trivial
+2510,Tab disapear on save,minor
+2511,Eclipse got stuck,critical
+2512,Symbol resolution has stopped working between Juno M4/M5,major
+2514,Eclipse crashes while indexing my project.,critical
+2516,"The wizard to ""Create a new C project"" locks up when Next is clicked.  A Force Quit is needed to kill it.",critical
+2517,New deadlock in indexer job : PDOMManager.createIndexer() vs PDOMManager.savePreferences(),major
+2518,Refresh scope becomes empty after closing/opening project if left to default,critical
+2519,Context menu entries for creating new Source/Header Files missing in ProjectExplorer,minor
+2520,Project Dependencies are not compiled in requested order when using HeadlessBuild,major
+2521,Unexpected Resource Configurations menu item on Java breakpoint,major
+2522,built-in specs for cross-compilation causing build error due to false include folder,blocker
+2523,"""Run as you type"" feature doesn't support custom #define's from project settings",minor
+2525,Editor show any external type as unknown including stdc++ such std::string,major
+2526,CDT does not recognize methods inherited from std::atomic_bool,major
+2527,Starting up hangs when there are many files opened in the last session,critical
+2528,"Including JNI.h causes ""Type JNIEnv could not be resolved"" type errors, even though they are present in included JNI.h file",major
+2529,[sd90] Scanner Discovery doesn't run on certain toolchains,major
+2530,"Inclusion of windows.h, winsock.h, or winsock2.h causes unrelated warnings and errors to be reported for source file being edited",major
+2531,Binary not found when exe same name as extension-less header.,major
+2533,Internal builder seems broken,major
+2534,[sd90] Cannot add C++ include paths via Preprocessor Include Paths or Paths and Symbols,major
+2535,Massive memory leak indexing with Juno nightly,major
+2536,C++ editor doesn't insert spaces instead of tabs,major
+2537,"Editor crashes from certain C++ code: java.lang.StackOverflowError during ""Notifying selection listeners""",critical
+2538,MinGW 64bit toolchain not detected.,minor
+2541,Troubles with template template,major
+2542,CDT debugger 'Display As Array...' does not show elements of large array,major
+2543,RejectedExecutionException thrown when find in memory view after re-launching,major
+2544,Eclipse hangs on 'Terminate and Remove' in the CDT debugger,critical
+2545,c++-file-entry in index-up-front-list yields unresolved include,minor
+2547,eclipse-cpp-juno-RC3 contains java functionality that does not work,major
+2548,"[CDT][Content Assist] Inside a namespace scope, the global namespace is not filtered out.",major
+2549,[Debug] Can't set environment variables in the remote launch configuration,major
+2550,"C/C++ Unit - Google Test - ""Unknown Error during parsing Google Test module output: Unexpected test module output"" gtest 1.6.0",major
+2551,Indexer uses wrong (excluded) files and causes code analysis error,major
+2552,Projectless debugging: no error is reported if a directory is specified as the program path,minor
+2553,No error is reported if a directory is specified as program path,minor
+2554,Eclipse Juno 64 bits don't discover the visual studio paths,major
+2555,Juno Indexer cannot find headers in workspace folders that Indigo did find,major
+2556,Problem with BuildSettingsBlock.label.internal.builder.ignore.err,trivial
+2557,IllegalArgumentException in ThreadVMNode,minor
+2558,all threads that have ever been displayed get refreshed on suspend,major
+2559,"std::move not recognized, leads to numerous false codan errors",major
+2560,"std::forward ambiguity, leads to numerous codan false errors",major
+2561,TVT/DVT3.8:TCT71: CCA: test for WSW38 TVT/DVT Bridge,minor
+2563,Toolchain not detected,major
+2564,Problem with NewCProjectV2.description in cdt.autotools.core/plugin.properties,trivial
+2565,Build error on CDT 8.1.0 on AVR cross compile projects,major
+2567,TVT/DVT3.8:TCT99: ARA: Incorrect mirrored strings occurred on panels of right click menu selection of Invoke Autotools,minor
+2568,TVT/DVT3.8:TCT101: ARA: Incorrect mirrorred strings occurred on properties page of bupc on Linux,minor
+2569,TVT/DVT3.8:TCT110: RUS: Entries and Providers are not translated in C++ preferences,major
+2571,TVT/DVT3.8:TCT175: TVT pt_BR: Error message,critical
+2572,Problem with Option.configure.sharedstatedir.tip in org.eclipse.cdt,trivial
+2573,Editor refresh problem when template executed twice,minor
+2575,Comment / uncommenting differently,major
+2576,java.lang.NullPointerException during build,major
+2577,Indexer ClassCastException,major
+2578,"[sd90] ""command to get compiler specs"" does not take effect for current project",major
+2579,Symbols from base class become unresolved when header is modified,major
+2580,Widget is Disposed Error when terminal is closed before command completes,major
+2581,#include dependencies are not respected when building a makefile project (-MT flag),major
+2582,Monitor is flickering everytime C++ project is being build or run,major
+2584,Members of anonymous namespace visible outside file,major
+2585,StackOverflowError in ASTCommenter.getNextNodeInTu method,major
+2586,"In C/C++ perspective, the version number in the Package Explorer appears doubled",major
+2589,"When importing an existing CDT project, language settings providers are disabled",major
+2590,NullPointerException in CDT for Semantic Highlighting,major
+2591,can't set CDT breakpoints in remote projects,major
+2592,Regression: ClassCastException evaluating read/write flags.,major
+2593,NPE when parallelizationNumber is missing,major
+2594,NPE thrown in LanguageSettingsProviderTab when selecting a newly created configuration,critical
+2595,Switching back to project specific language settings provider seems to be incorrect,major
+2596,Codan shows false errors on C++11 features.,major
+2597,Initial provider command is not restored for non-shared providers,major
+2598,Indexer fails with a certain combination of templates and it fails for the entire translation unit.,major
+2599,DefaultSettingConfiguration is not switched when setting configuration active,major
+2600,NPE thrown in LanguageSettingsProviderTab after removing entries in file properties,major
+2601,StackOverflowError in org.eclipse.cdt.internal.core.dom.rewrite.commenthandler.ASTCommenter.getNextNodeInTu endless recursion,major
+2602,"can't override Includes,Symbols  tab of Path and symbols properties page for C/CPP projects",blocker
+2603,[Visualizer] m_recache is never reset to false,minor
+2605,Eclipse (Juno) CDT indexer: “Error while parsing…” a Makefile project,major
+2606,Template Inheritance Not Working in Indexer,major
+2607,Scanner Discovery not picking up relative paths on Windows,major
+2609,Exporting a PDOM fails when a file is indexed with more than 2 configurations,major
+2610,C++ Code Style formatting wrong with stdbool.h,major
+2612,Performance regression in MBSLanguageSettingsProvider causing UI freezes,major
+2614,[reverse] Uncall does not work if Breakpoint present,major
+2615,test bug,major
+2616,Extract Local Variable throws an exception...,minor
+2617,Extract Local Variable throws an exception extracting fprintf(),minor
+2618,Extract Constant throws an exception extracting a string constant,minor
+2620,Toggle Function throws an exception extracting function definition that has declaration in the source file,minor
+2621,Toggle Function throws an exception extracting function definition with typedef as return type,minor
+2622,Value of pointer not updated after allocation.,major
+2624,"Unable to unset ""Use global provider"" in Providers tab of Preprocessor Include paths",major
+2626,ClassCastException: parser.c.CASTFunctionCallExpression cannot be cast to ast.IASTImplicitNameOwner,minor
+2627,Eclipse C++ for Windows asks for g++,major
+2630,[regression] ClassCastException: PDOMCPPEnumeratorSpecialization cannot be cast to IType,critical
+2632,renaming an enum declaration doesn't rename use in function parameter list,major
+2635,"CDT does not remember the ""Use active build configuration for indexing"" setting after close / re-open project",major
+2636,CDT LanguageSettingsProviders do not support project-relative include paths,major
+2637,"Regression: pathEntryContainers entries are no longer honored when importing a project into cdt-8.1.2, due to LSP's being enabled",critical
+2638,[formatter] Crashes on sizeof() macro,critical
+2639,CDT fails to recognize imports,critical
+2641,Undefined maintenance set python command,major
+2643,Eclipse don't see the toolchain of IAR 6.5.2,blocker
+2645,Selecting files for Refactoring,major
+2646,NPE during AST creation,critical
+2647,Refactor (rename) of enum members fails when performed from enum list itself.,major
+2649,[performance] CExternalSettingsManager causes all workspace project-descriptions to load prematurely,major
+2650,[performance] HoldsOptions performance improvements,major
+2651,"In project with mixed C and C++ code, index failed to show all references of a structure member",critical
+2652,[performance] PropertyManager causes many unnecessary file-writes into workspace metadata,major
+2653,LLVM plugin refreshes resources when breakpoint is inserted in Java,major
+2654,Format menu option disabled after rejecting to make file writable,trivial
+2656,bogus null check in HeadlessBuilder,minor
+2657,CDT Build Console very slow with line wrapping on,major
+2661,"Meet exception ""Failed to load the JNI shared library jvm.dll""",blocker
+2662,[Indexer] Indexer fails if a function signature haves multi lines.,major
+2663,Post build command not triggered in parallel build mode,major
+2664,IllegalArgumentException while indexing,major
+2665,[Mac] Command-Shift-Up/Down is not handled in standard way,minor
+2666,NullPointerException on project build,major
+2667,"Can not expand Binary with DWARF 4 format, NPE in DwardReader",major
+2668,Refactoring throws NullPointerException,major
+2669,"The ""suspended"" decorator is sometimes shown even if the process is running",minor
+2671,"C++ Programs will not compile using std:: call cout and cin. Indigo works, Juno doesn't.",major
+2672,UnsupportedOperationException: addMember method should be called instead.,major
+2673,"Adding and deleting a ""source folder"" corrupts the project",critical
+2674,CDT Indexer does not recurse includes,major
+2677,Formatting function-like macro call in equals initializer results in Unexpected token type warning,trivial
+2678,Symbols defined in header file can not be resolved,major
+2680,"Indexer can't parse subclass in derived class, and worse, it refuses to index the whole file.",blocker
+2681,Double clicking in Disassembly ruler leaks a listener,major
+2682,"""field could not be resolved"" error in function returning function pointer",minor
+2683,Change of scanner info provider doesn't take effect until Eclipse restart,major
+2684,GDB Hardware Debugging - Memory viewing broken,major
+2685,Linked folder appears twice in project explorer,minor
+2687,ASTRewrite: Rewriting ICPPASTBaseSpecifiers does not work,minor
+2688,CDT build fails whenever any C++ build environment is defined in terms of other environment variable,major
+2689,LLVM plugin triggers endless build loop,major
+2690,Autobuild of a C++ project enters an infinite loop,major
+2691,"Program ""g++"" not found in PATH",blocker
+2692,"Can't create new C++ project. ""java.lang.AbstractMethodError""",critical
+2693,Get nullpointerexception when building targets from CMake generated makefile,blocker
+2694,TVT/DVT4.3:TCT91: IESDVT43: THA -Duplicate title in TOC,minor
+2695,gcc attributes parsed wrong,major
+2697,Behavior changed on following #include symlink,major
+2699,Error while parsing c++ file,major
+2700,StackOverflow when evaluating specialized constexpr function,major
+2701,Undo/Redo disabled,major
+2702,"cannot debug ada program (No definition of ""sizeof"" in current context.)",major
+2703,Typo in CRefactoringDescriptor_unknown_project message,trivial
+2704,Build output parser does not discover include compiler option,blocker
+2705,Indexer gets confused by mixed unix/dos lineendings,major
+2707,"False-positive ""Invalid template arguments"" when using constructor syntax for an enum type template argument",major
+2708,Normal C++ header files cause indexer warnings,major
+2709,UnsupportedOperationException: addMember method should be called instead. (again),major
+2712,Support for C++11 Attributes (N2761),minor
+2713,Encountered an ambiguous node error message produced by parser,major
+2714,Can't force refresh of the disassembly on a different address,major
+2717,"After upgrading to 8.3 indexer runs wild. Even though deactivated and resource filtered, once opening a file, indexer starts running on 8 threads, blocking ui and bringing eclipse to a standstill",blocker
+2718,"[non-stop] CDT doesn't wait for ""stopped"" notification from GDB before setting breakpoints",major
+2719,starter.exe has stopped working [pop up when building with eclipsec.exe],major
+2720,Indexer hangs and runs out of memory for non-trivial recursive constexpr used as template parameter,major
+2721,"""Connect to Process"" is always enabled initially",minor
+2722,Eclipse exits in the middle of coding,blocker
+2723,NPE in BindingCollector.leave,major
+2726,PDOMSetupJob stuck forever,blocker
+2728,Out of Memory with a few Qt projects in workspace,blocker
+2731,Sample code is untidy,trivial
+2732,Infinite recursion with decltype,major
+2734,[breakpoints] Cannot set breakpoints for GDB 7.0 or 7.1,major
+2735,masked variable's value was incorrectly shown,major
+2736,StackOverflowError on startup,major
+2737,"Local variables incorrectly show as ""returned"" in variables view",major
+2739,Pretty Print Errors Render Eclipse Debugging Impossible,critical
+2740,Build category is no longer shown in Workspace Preferences,major
+2741,StackOverflowError exception in C++ project repeatedly,critical
+2742,Attempt to use symbol failed: uint8_t,major
+2743,"An internal error occurred during: ""Notifying selection listeners"" pops up all the time",major
+2744,Fix NPEs in new launch toolbar,major
+2745,Won't Start At All,critical
+2747,Crash when viewing frame containing unordered_map,critical
+2748,Misconfigured Launch Config Providers Can Cause NPE,critical
+2749,Cannot delete configurations from LaunchBar,major
+2750,Cannot Edit Launch Configuration in Toolbar,major
+2751,editCommandId and addNewCommandId ignored in launchBarUIContributions.targetUI extension,major
+2752,NullPointerException when Writing Synthetic if-elseif-statement,minor
+2753,[LaunchBar] Autoselect Another Target When Target Is Removed,major
+2754,LaunchBar Lacks Means of Updating Labels,major
+2755,Completion in Using Declarations,trivial
+2756,[Content Assist] No Completion in Template Aliases,trivial
+2757,Spaces in library path,major
+2759,"Deadlock in CDT Editor due to SF ClearCase involving HyperlinkDetector, Reconciler and CODAN",critical
+2760,multiple errors when opening .c files from the wine project in editor,major
+2761,[ASTRewrite] Replacing Replaced Node Throws IllegalArgumentException,minor
+2762,Indexer hangs when indexing <boost/range/combine.hpp>,major
+2764,Breakpoints not working,blocker
+2765,[visualizer] visualizer.examples warning: resources/ not referenced in build.properties src list,trivial
+2766,cleaning all projects,major
+2767,Warnings about non-existing invalid project paths,major
+2768,Need the block syntax (void(^someblock)(some parameters)) support,major
+2769,[Formatter] Code formatting fails for the attached stripped down C file,major
+2770,"The autotools sharedlib example doesn't build due to ""install-sh not found""",major
+2771,"CDT crashes on ""Create new source/header"" dialog.",major
+2772,Autobuild of a C++ project enters an infinite loop,major
+2774,NewLaunchTargetWizard needs a window title,minor
+2775,Bogus 'invalid template arguments' error when using a dependent decltype expression,minor
+2776,Internal builder on single file cause org.eclipse.core.internal.events.InternalBuilder.getProject() null pointer exception,blocker
+2778,Missing line in the MANIFEST.MF for NLS'd plugin and provide names,trivial
+2779,Include guard name style.,minor
+2780,Exceptions thrown and LC cache corrupted when deleting project-based LC,major
+2781,Hello World tutorial shows non-existing command to build,minor
+2782,Comment/Uncomment for C++ editor not documented correctly,minor
+2783,Variables in #includes inside function body get randomly recognized,minor
+2785,Eclipse Internal Error: StackOverflow while editing files,critical
+2786,Template location must be in the plug-in project,major
+2787,Ctrl Key Not Working Inside the Editor?,major
+2788,"Incorrect formatting of the ""for"" loop if space before semicolon",major
+2789,"Single-stepping always switches to the source file view, even in instruction stepping mode",major
+2790,I don't know how to start a new category,critical
+2791,[LaunchBar]Drop-down menu fields need better tooltip text,minor
+2792,Installing CDT doesn't work,blocker
+2794,"NPE when creating a ""C/C++ Remote Application"" launch config",major
+2795,"closing of two templates/declspec/casts cannot be correctly parsed ( "">>"" )",major
+2796,"[TERMINALS] After restart, the terminal's ""Git Bash"" (which shell to use) setting is lost",major
+2797,Cross GCC toolchain is orphaned,major
+2798,Major C++ Formatter Glitch,major
+2799,Indexer crashes with stack overflow,critical
+2801,stackoverflow exception,major
+2802,external tools on windows,major
+2803,Toggle Function does not handle nested namespaces correctly,minor
+2804,Extensionless Files,major
+2805,Launching debugger from C/C++ perspective for Remote app creates a Local debug config,minor
+2806,"""Resource Configurations"" menu shows up in non-CDT managed build projects",major
+2807,Preprocessor marcro not honored,critical
+2808,StackOverflowError involving self-referencing template definition,major
+2809,[LaunchBar] All bundles and features must be signed for Mars,major
+2810,Editing a breakpoint action is not immediately reflected in the list of attached actions,minor
+2811,Unable to install Luna on 64-bit Windows 8 machine,critical
+2812,CDT Standalone debugger no longer starts with platform M6,major
+2813,DefaultGCCDependencyCalculator2Commands generates rather meaningless dependecy files,major
+2814,UnsupportedOperationException in CPPVisitor.createBinding,major
+2815,Remove 32 Bit MacOS X Environment from Build,minor
+2816,Cannot inspect vector elements - GDB MI shows Duplicate variable object name error.,major
+2817,[CDT.setup] Targlet resolution not working,trivial
+2818,Indexing C++11/14 libraries fails (CMake Project),major
+2819,Syntax coloring for C broken in CDT 8.7.0,major
+2820,Open Declaration opens 2nd editor with same file under [Targets] and/or [Subprojects],minor
+2822,[Disassembly] Disassembly view is empty for subsequent debug sessions.,major
+2823,templates confuse the parser making C++ autocompletion fail,minor
+2824,Editing a tracepoint action is not immediately reflected in the list of attached actions,minor
+2825,Not able to create new C++ project,critical
+2826,[ASTRewrite] Nested modifications are suppressed by macros,minor
+2827,Clicking on stack frames in debug view doesn't open files in editor,blocker
+2829,[Dark Theme] Unreadable Macro expansion with dark theme,minor
+2830,Wrong arguments are passed to a program in debug mode,major
+2831,Most annoying CDT bug!,major
+2832,AbstractCLikeLanguage#createScanner() should not be final,major
+2833,[C++11] Incomplete support for alignas specifier in class definition,major
+2834,Replace BacktrackException in parsers with less expensive error handling.,major
+2835,[services] GDB version comparison fails for GDB 7.10,major
+2836,"Parser hangs while typing ellipsis in function's args, inside attribute specifier",minor
+2837,"Null pointer exception in CustomizePerspective, ActionSetAvailibility what activating Egit",major
+2838,Indexer disagrees with compiler,major
+2839,autocomplete doesn't work (beyond one level) for variables used inside a templated class,major
+2840,Empty environment variables result in NPEs,major
+2841,"Pointer hidden behind typedef, variables detailed view does not get updated when stepping",major
+2842,I get an stack overflow when using methods of an variable defined before the use,blocker
+2843,"Indexing fails with ""Error: java heap space""",major
+2845,Invalid library path for ESP8266 platform when compiling,blocker
+2846,Invalid parameter passed to avr compiler.,blocker
+2847,Uncategorized libraries get lost,blocker
+2848,Arduino Serial Connection not added in Targets dropdown,blocker
+2849,Project's selected Libraries uncheck themselves,critical
+2850,"ESP8266 compile is broken, demo project attached",blocker
+2851,Project configuration messed up after imported,blocker
+2852,Serial Console blocks first Run command to upload,major
+2854,Source location filtering doesn't work for different configurations,major
+2855,"LanguageSettingsProvidersSerializer does not ""Check Out"" shared language.settings.xml file before writing to it",major
+2856,Unable to discover Microsoft Visual C++ toolchain with Visual Studio 2015,major
+2858,"Erroneous ""Invalid arguments"" with std::regex_match on string and regex.",minor
+2860,[Arduino] Path to make on Windows is wrong,major
+2863,Seems Bug 353360 is back,minor
+2864,"The method reportProblem highlights the entire line, instead of just the requested node.",trivial
+2865,"The method reportProblem highlights the entire line, instead of just the requested node.",trivial
+2866,cannot open a command shell,blocker
+2867,Extract Local Variable: Function type as template argument loses parameter list,minor
+2868,Refactoring of Extract Constant Implementation,minor
+2869,Connecting to existing GDBServer fails to load file or set breakpoints,major
+2870,Cannot enter a new line after doxygen comment.,major
+2871,function exp could not be resolved,critical
+2872,Mail is is not working,blocker
+2873,Space in path name causes build to fail,major
+2875,CDT flags std::bind with invalid arguments,minor
+2876,StackOverflowError in HeuristicResolver,major
+2877,[variables][expressions] Number format settings are not reflected for structure members in Variables/Expressions view,minor
+2878,Error using boards from ATtinyCore,major
+2880,Support for CDT and Xcode 7 tools on OS X 10.11 El Capitan,blocker
+2881,Platform install fails,blocker
+2882,Some lambda expressions are parsed wrongly,minor
+2883,[regression] Debug mode: Arguments are passed enclosed in single quotes on Neon,major
+2884,Resurrect GdbDebugServicesFactory single argument constructor,major
+2885,Unable to upload program to arduino through avrdude,major
+2886,Atomic Symbols Cannot be Resolved,trivial
+2887,"[regression] ""Class has virtual method but non-virtual destructor"" marks too many lines",major
+2888,[regression] Indexer fails on a certain template code snippet and leaves the whole file unindexed,blocker
+2889,macro references syntax highlight wrong on two level macro expansion from .h file,major
+2890,Unable to upload to Arduino Zero,critical
+2893,Debugger does not launch on Neon / Windows XP,blocker
+2894,Find/Replace windows disappears,major
+2895,STlink-v2 - debug interface was not found (ft2232) - with Ubuntu and Openocd,blocker
+2896,Indexer runs out of memory with recursive template functions,major
+2897,Oomph setup fails,major
+2898,Arduino Download Manager stuck at installing tool avr-gcc,blocker
+2899,A double number with a leading 0 is erroneously seen as a function name.,major
+2900,GDB preference page can grow huge with long debugger path,minor
+2901,avrdude fails - missing libusb0.dll,major
+2902,Format indentation in lambda expressions,major
+2903,"when project explore lost focus, cannot click a file to open",major
+2904,CDT always forget settings for individual files,major
+2905,NPE in EvalFunctionCall.computeForFunctionCall,major
+2906,Local terminal running cmd.exe doesn't interpret jansi-1.13 color switch codes properly,major
+2907,CCorePlugin.start method causes Eclipse to become unusable,critical
+2908,[lldb] Member variables not updating properly,major
+2909,[standalone] bundle version errors,major
+2910,OutOfMemoryError in indexer,critical
+2911,arduino avr platforms don't get installed.  Downloaded file is smaller than should be.,major
+2913,The debugger's watch window shows invalid values in some cases.,major
+2914,"Arduino command shell not working, launch fails",major
+2915,indexer crashes with heap overflow (infinite recursion),critical
+2917,Parser not handling c++ namespaces correctly,major
+2918,No way to separate non-read-only references in array,major
+2919,Eclipse C/C++ Neon.2 (4.6.2) & macOS Sierra (10.12.2) & Xcode 8.2.1 & GDB 7.12.1 — eclipse debug cannot start!,critical
+2921,Unable to interrupt arm remote target with Neon and GDB 7.12,critical
+2922,CDT Indexer is refusing to index headers which use std::shared_ptr with nullptr initialisation.,major
+2924,"[remote debug] ""C/C++ Remote Application"" cannot be debugged on an ARMv8-based aarch64 target",major
+2925,CContentAssistProcessor.createContext may leak index lock,major
+2927,NullPointerException in ConfigurationModification.java:106 when selecting LLVM,major
+2928,Stack overflow while indexing,critical
+2929,Can't select Arduino as target in launchbar,blocker
+2930,Can't select Arduino as target in launchbar,blocker
+2931,Serial1 wrongly flagged as 'unresolved symbol',minor
+2932,no gdb console,major
+2933,Build properties defaults are application based despite project context UI,major
+2934,StackOverflow in PDOMCPPVariable.getInitialValue,major
+2935,source->implement method : methods are not placed inside the namspace,minor
+2937,New launch target fails after update,major
+2938,Assertions in CReconciler thread from MarkerAnnotation.isQuickFixable,major
+2939,Medium to large scroll back in console causes consecutive UI freeze occurs while building a C makefile project.,critical
+2940,System hangs when I try to create a connection,major
+2941,NPE in AbstractDebugTextHover when hovering over undefined macro,major
+2942,"""New Project"" cmake fails on windows Eclipse installation.",major
+2943,StackOverflow exceptions indexing WebKit,major
+2945,Update the Terminal Marketplace entry to reference 4.2 or 4.3,major
+2946,Forbidden access to http://arduino.esp8266.com/versions/2.3.0/package_esp8266com_index.json,blocker
+2947,Marker refresh causes editor to open,blocker
+2948,full stack frame is requested even if stack frame limit preferences is setup,major
+2949,Function declarator does not contain virtual specifiers,trivial
+2950,Using 'typedef' or 'using' to define alias with the same name in nested namespace results in 'Type '...' could not be resolved',major
+2951,"Sometimes, i cannot add breakpoints after starting a debug session",major
+2952,Indexer hangs on a large project,major
+2953,boost::accumulator triggers java.lang.OutOfMemoryError: Java heap space,major
+2954,Tune refresh rate of build console,major
+2955,Ctrl+Click navigation is doesn't work on some files,major
+2956,Only first file in include path is checked on #include,major
+2957,Eclipse Oxygen IDE becomes extremely unresponsive on parallel make,major
+2959,Unresolved Inclusion <Arduino.h>,blocker
+2960,eclipse CDT failed to create PTY on macOS 10.13 beta,major
+2961,"/* a, */ comment disables ctrl+click code naviagation",minor
+2962,ASTWriter loses pack expansion of IASTTypeId,trivial
+2964,Cant Compile for Sanguino board.,blocker
+2965,Need help in adding support for Teensylu++ Arduino,blocker
+2968,Unable to install attiny arduino platform (NPE),blocker
+2969,serial.dll dependency (libgcc_s_dw2-1.dll) missing on Windows 32 bit,major
+2970,Wrong deduced type for string literals with u8 prefix,minor
+2971,Missing autocompletion.,minor
+2973,"Exception in thread ""main"" java.lang.Error: Unresolved compilation problem:  Type mismatch: cannot convert from String to char",major
+2974,C/C++ Development Tools 9.3.3.201710130142 could not open source file,blocker
+2975,"The ""Index all header variants"" does not work as expected, if a header does not use the modified macro dictionary",major
+2976,[C++14] Syntax error when parsing /usr/include/c++/5.2.0/complex with -std=c++14,minor
+2977,The 'Includes' sub-tree on Project uses only the first Build configuration to generate its content,major
+2978,"Cannot run program ""make"" - error=2, No such file or directory",blocker
+2979,"Pre and post build steps do not run when ""parallel build"" is enabled (MinGW)",major
+2982,'multiple problems have occured' window pops up every few seconds since latest updates,major
+2983,Ardyno Library cannot be added,major
+2984,Preprocessor include path UI freezes with GTK2,major
+2985,Indexer lockup on template code from vectorclass library,major
+2986,Imported Cmake project: Build does nothing,major
+2989,friend statement causes indexer failing to recognize class,blocker
+2990,Indexer locks up on complex input file,major
+2991,"No ""Libraries"" entry in project properties of Arduino project",major
+2993,Eclipse freezes starting a post mortem debug in CDT,major
+2996,[Call hierarchy] Does not find calls that use auto as parameter type,major
+2997,Catch by const reference ignores const placement setting,minor
+2998,Invalid template arguments for vector<T> member;,major
+2999,SIGSEGV when parsing toolchain header files,major
+3000,"Build fails if the ""Arduino home"" directory name includes spaces",major
+3001,Tooltip gets stuck using editor,major
+3002,Indexer (and other operations) spending a lot of time in CommandLauncherManager / docker-related code,major
+3004,AVR entered uC not selected,major
+3005,Sort configurations in the Exclude from build dialog,minor
+3006,Eclipse will not launch.,blocker
+3007,Eclipse Photon sometime freeze forever starting building,critical
+3008,"Open Element (Ctrl-T) fails with stack overflow when search is started with wildcards (*, ?)",major
+3009,LLVM/Clang Broken toolchain: finds wrong libraries and does not accept changes,blocker
+3010,C/C++ Indexer error in Photon,major
+3011,ConcurrentModificationException when indexing,major
+3012,unable to create new c/c++ projects,major
+3013,Replace Node with Itself Duplicates Comment,minor
+3014,CMake and Meson integration not working on Windows OS,blocker
+3015,Checkbox label should not end with a dot,trivial
+3016,Finish button not active for creating a new C project,blocker
+3017,[C++17] Add support for typename keyword for template template parameters,minor
+3018,"Offer ""Create local variable"" based on compiler errors",minor
+3020,Docker container build fails to mount data volumes in container path,major
+3021,Makefile error have no idea what caused it,major
+3022,C++ includes are not resolved on new install of Eclipse Photon on Linux,major
+3023,Editing one file randomly opens another file,major
+3025,Incorrect no return warning with C++14 return type deduction,minor
+3026,NoClassDefFoundError: javax/xml/bind/JAXBException creating a CMake Project on Java 11,major
+3027,"Cannot create arduino project, java 11 and jaxb problem",blocker
+3028,CDT 9.5 macro processing,critical
+3029,JAXB issues with tools.templates with Java 8 and Java 11,blocker
+3031,Enablement expression is missing for config provider for various descriptorTypes,major
+3033,"2019-03 M3 Parser Regression: Simple code parses fine with CDT 9.6, error in CDT 9.7",major
+3034,CDT 9.7 Indexer is consistently failing with NPE,critical
+3035,[fn] Member initialization checker,minor
+3036,CDT indexer  does not index all code properly,major
+3038,Themeing not working for write access highlight color,minor
+3039,Cannot clear terminal,major
+3040,All suppression comments removed on multi selection,major
+3041,Indexer hangs in access to WeakHashMap.get(),blocker
+3042,NoSuchMethodError when importing Existing Code as Makefile Project,blocker
+3043,Indexer crashes with Error while parsing java.lang.ArrayStoreException errors,major
+3044,Command line link error,major
+3045,External tool -> build after launch (ONLY on compile success),major
+3046,Launchbar does not work/appear in 2019-09 M1,critical
+3047,"'unresolved inclusion ""Arduino.h""' problem might be due to incorrect source files?",blocker
+3048,Eclipse leaking memory,critical
+3049,remote debugging multi-threaded application is extremely slow,major
+3050,"ArrayStoreException in indexer, eventually causes indexer to shut down",major
+3051,"Unable to use serial connection with parity=none using some Windows drivers, usbser.sys for example",blocker
+3052,SerialPort.open0() leaks memory,major
+3053,"""Connect..."" option is missing from context menu in Debug view",major
+3054,Bug in the automatic getter generation name,minor
+3055,Fix legal docs according to Eclipse Handbook,blocker
+3056,Stdio.h is not found,blocker
+3057,Cannot install platform,major
+3058,Call to pthread_create() causes debug session to terminate.,major
+3060,Arduino Download Manager adding Intel i686 Boards does not complete,blocker
+3061,CI builds are failing,blocker
+3062,Arduino Download Manager -> Selected Platforms do not install,major
+3063,Terminal Resize corrupts the existing Text in the terminal,major
+3064,Improve developer setup flow with better Oomph setup,major
+3065,Breakpoints cannot be set in the GUI,major
+3066,Terminal steals focus,major
+3067,Error in baseline target platform definition for CDT,major
+3070,No Meson in CDT due to Meson UI causing OSGi wiring issue: org.osgi.framework.BundleException: Could not resolve module: org.eclipse.cdt.meson.ui,blocker
+3071,Project cannot be created,major
+3072,Upgrading to CDT 9.11 from CDT 9.10 does not work because of Meson feature,critical
+3074,Headers are not getting resolved in Windows OS,major
+3075,LSP4E's change to its deps caused CDT build to break,blocker
+3076,"managed build's ""expand env. variable refs in Makefiles"" eats \ in ${envVar1}\${enVar2}",major
+3077,FileSystemException 'too many open files when build directory is cleaned (cmake build),blocker
+3078,Default lambda capture not correctly formatted when there's a space after first bracket,minor
+3079,Eclipse IDE ends-up in a StackOverflow exception when building projects with circular references,critical
+3080,CDT releng is broken: PTP 3.0 2020-03-M2 is not found,blocker
+3081,Upload to Nano Every - Issues executing the avrdude programmer,major
+3083,Malware Trojan:Win32/Ludicrouz.N does not allow to compile and run executable.,blocker
+3084,Cannot find C/C++ build in project properties. Neither Paths and Symbols in project Properties > C/C++ General.,major
+3085,Missing disposes causing out of GDI on Windows,blocker
+3086,Workaround broken DecorationOverlayIcon in Platform,blocker
+3087,CDT standalone debugger has stopped building,blocker
+3089,CDT : update range for acceptable org.eclipse.linuxtools.docker,major
+3091,"""The operation cannot be completed"" when attempting to install new software.",blocker
+3092,standalone debugger not building in master due to signature problems,blocker
+3094,"ubuntu lts latest debugging totally broken: ""Could not determine GDB version using command: gdb --version""",blocker
+3095,CDT build p2 repository missing lots of bundles,blocker
+3098,CompileCommandsJsonParser error markers are not deleted from the problems view,minor
+3099,Indexer reports spurious errors with C++17 specified,major
+3100,CDT 10 unable to parse g++ std::map or std::set template usage,critical
+3101,Debugger Options checkbox selections in GDB debug configuration barely visible,minor
+3103,[regression] Memory Browser does not mark changes red on import,major
+3104,Only allow certain file types to be executable,minor
+3106,File > New > Other... > Launch Targets > Launch Target throws ClassCastException,major
+3107,Some CDT related preferences display badly in Dark appearance mode.,major
+3108,Debugger hangs at 97% build when running simple C program under IDE,critical
+3109,console output is late or not there at all,critical
+3110,"Templates extension point ""filterPattern"" documentation incorrect",minor
+3112,Eclipse CDT 202012 is unusable with dark theme,critical
+3113,Build produces error when env contains exported bash functions,major
+3116,windows native libraries (dll) are not signed,blocker
+3117,"Missing ""remove project"" option in  org.eclipse.cdt.managedbuilder.internal.core.HeadlessBuilder",minor
+3118,DebugPlugin$eventDispatchJob only schedules runnables if EventListeners are registered,minor
+3119,TM Terminal freeze after a dir (cmd),blocker
+3120,right click in package explorer hangs eclipse,blocker
+3121,Update site 403,blocker
+3124,CDT DSF relies on undocumented behaviour of adapter manager,blocker
+3125,CommandGenerator not respected for option value type libs,major
+3126,Eclipse TM terminal colors not working Windows,blocker
+3127,High CPU and memory churn (listener leak?),major
+3128,Using <math.h> not working even with -lm compiler option,major
+3129,Stack Overflow in Builder,blocker
+3131,Eclipse CDT fails to build project with IAR Toolchain in managed makefile build,blocker
+3132,Bug,critical
+3133,"Constexpr evaluation support for various builtins: clrsb, clz",minor
+3134,Show Breakpoints Supported by Selected Target causes UI to hang,major
+3135,"""Other optimization flags"" ignored",blocker
